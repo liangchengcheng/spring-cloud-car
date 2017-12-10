@@ -24,6 +24,7 @@
         <module>spring-cloud-zuul</module>
         <module>spring-cloud-hystrixDashboard</module>
         <module>spring-cloud-turbine</module>
+        <module>sping-cloud-common</module>
     </modules>
 
     <properties>
