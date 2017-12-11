@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.chengbinbbs</groupId>
+	<groupId>com.hdsx.car</groupId>
 	<artifactId>spring-cloud-userservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -12,7 +12,7 @@
 	<description>用户服务</description>
 
 	<parent>
-		<groupId>com.chengbinbbs</groupId>
+		<groupId>com.hdsx.car</groupId>
 		<artifactId>spring-cloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>

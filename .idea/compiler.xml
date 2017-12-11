@@ -8,19 +8,31 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-admin" />
         <module name="sping-cloud-common" />
-        <module name="spring-cloud-admin" />
         <module name="spring-cloud-config" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-feign" />
         <module name="spring-cloud-hystrixdashboard" />
         <module name="spring-cloud-ribbon" />
         <module name="spring-cloud-turbine" />
-        <module name="spring-cloud-userservice" />
         <module name="spring-cloud-zuul" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-car" enabled="true">
+        <sourceOutputDir name="../spring-cloud-eureka/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-cloud-eureka/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-eureka" />
+      </profile>
+      <profile name="Annotation profile for cloud-config" enabled="true">
+        <sourceOutputDir name="../spring-cloud-config/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-cloud-config/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-admin" target="1.7" />
+      <module name="cloud-config" target="1.7" />
+      <module name="cloud-eureka" target="1.7" />
       <module name="sping-cloud-common" target="1.7" />
       <module name="spring-cloud" target="1.7" />
       <module name="spring-cloud-admin" target="1.7" />

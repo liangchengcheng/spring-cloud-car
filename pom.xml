@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.chengbinbbs</groupId>
+    <groupId>com.hdsx.car</groupId>
     <artifactId>spring-cloud-car</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -15,9 +15,7 @@
     </parent>
 
     <modules>
-        <module>spring-cloud-admin</module>
-        <module>spring-cloud-config</module>
-        <module>spring-cloud-eureka</module>
+
         <module>spring-cloud-userservice</module>
         <module>spring-cloud-ribbon</module>
         <module>spring-cloud-feign</module>
@@ -26,16 +24,19 @@
         <module>spring-cloud-turbine</module>
         <module>sping-cloud-common</module>
         <module>cloud-admin</module>
+        <module>cloud-eureka</module>
+        <module>cloud-config</module>
+        <module>cloud-sleuth</module>
+        <module>cloud-turbine</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>1.4.3.RELEASE</spring-boot.version>
         <java.version>1.7</java.version>
 
-        <springCloudVersion>2.0.0.M1</springCloudVersion>
-        <springBootVersion>2.0.0.M3</springBootVersion>
+        <springCloudVersion>1.4.0.RELEASE</springCloudVersion>
+        <springBootVersion>1.5.3.RELEASE</springBootVersion>
         <springBootMyBatisVersion>1.3.0</springBootMyBatisVersion>
         <springBootpagehelperVersion>1.1.3</springBootpagehelperVersion>
         <springBootAdminVersion>1.5.3</springBootAdminVersion>
@@ -71,38 +72,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!--支持健康信息描述-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.jolokia</groupId>
-            <artifactId>jolokia-core</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.10</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
         <!-- 条形码、二维码生成  -->
         <dependency>
             <groupId>com.google.zxing</groupId>
