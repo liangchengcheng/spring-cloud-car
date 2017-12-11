@@ -25,6 +25,7 @@
         <module>spring-cloud-hystrixDashboard</module>
         <module>spring-cloud-turbine</module>
         <module>sping-cloud-common</module>
+        <module>cloud-admin</module>
     </modules>
 
     <properties>
