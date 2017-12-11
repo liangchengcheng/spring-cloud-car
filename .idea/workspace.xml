@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_CR1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_19_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/entity/XbinResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/CookieUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClientCluster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClientSingle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sping-cloud-common/pom.xml" afterPath="$PROJECT_DIR$/sping-cloud-common/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sping-cloud-common/sping-cloud-common.iml" afterPath="$PROJECT_DIR$/sping-cloud-common/sping-cloud-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-car.iml" afterPath="$PROJECT_DIR$/spring-cloud-car.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" afterPath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,48 +29,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpringCloudAdminApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-admin/src/main/java/com/chengbinbbs/SpringCloudAdminApplication.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sping-cloud-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XbinResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/entity/XbinResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CookieUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/CookieUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2734">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClient.java">
+      <file leaf-file-name="spring-cloud-zuul.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -104,34 +49,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JedisClientCluster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClientCluster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisClientSingle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClientSingle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-250">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-admin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="74" selection-end-column="19" />
-              <folding>
-                <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="445">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,17 +115,18 @@
         <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/chengbinbbs/distribute/locks/DistributedLock.java" />
         <option value="$PROJECT_DIR$/spring-cloud-feign/src/main/java/com/chengbinbbs/service/UserClient.java" />
         <option value="$PROJECT_DIR$/spring-cloud-userservice/src/main/java/com/chengbinbbs/aop/ServiceMonitor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-config/src/main/java/com/chengbinbbs/SpringCloudConfigApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application-peer2.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application-peer3.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application-peer1.properties" />
-        <option value="$PROJECT_DIR$/sping-cloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/entity/XbinResult.java" />
         <option value="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/CookieUtils.java" />
         <option value="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClient.java" />
         <option value="$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClientSingle.java" />
+        <option value="$PROJECT_DIR$/sping-cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -211,12 +145,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -224,8 +153,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="370" />
-    <option name="y" value="137" />
+    <option name="x" value="-24" />
+    <option name="y" value="22" />
     <option name="width" value="1246" />
     <option name="height" value="692" />
   </component>
@@ -246,8 +175,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,79 +184,11 @@
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="sping-cloud-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="sping-cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="sping-cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="sping-cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="sping-cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="sping-cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chengbinbbs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="sping-cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chengbinbbs" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="sping-cloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chengbinbbs" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,47 +399,50 @@
       <workItem from="1512601489125" duration="1552000" />
       <workItem from="1512689816300" duration="195000" />
       <workItem from="1512690067126" duration="292000" />
-      <workItem from="1512690368928" duration="9275000" />
+      <workItem from="1512690368928" duration="11996000" />
+      <workItem from="1512911090370" duration="167000" />
+      <workItem from="1512948202753" duration="932000" />
+      <workItem from="1512952402451" duration="647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20853000" />
+    <option name="totallyTimeSpent" value="25320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="370" y="137" width="1246" height="692" extended-state="0" />
+    <frame x="-24" y="22" width="1246" height="692" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35260585" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35215947" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6474259" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6848674" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30066445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,69 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/chengbinbbs/oauth/db/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/chengbinbbs/oauth/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/test/java/com/chengbinbbs/DistributedLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/test/java/com/chengbinbbs/DistributedBolckingQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/test/java/com/chengbinbbs/SpringCloudZuulApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/org/apache/zookeeper/proto/ReplyHeader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/org/apache/zookeeper/ZooKeeper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="171" column="18" lean-forward="false" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/chengbinbbs/distribute/queue/DistributedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/chengbinbbs/distribute/locks/DistributedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-feign/src/main/java/com/chengbinbbs/SpringCloudFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -729,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,23 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,53 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512888038000" expanded="true" signature="53511:53730" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="53511:53743" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57601:57714" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="53512:53712" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57601:57699" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57601:57686" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57601:57668" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="64833:65716" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="64833:65701" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57816:58111" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57835:58096" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57898:58076" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57938:58042" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="57959:58020" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58161:58470" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58180:58455" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58257:58435" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58297:58401" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58318:58379" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58521:58786" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58540:58771" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58573:58751" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58613:58717" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58634:58695" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58829:59135" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58848:59120" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58922:59100" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58962:59066" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="58983:59044" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="64833:64950" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="64833:64935" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="64833:64915" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="64833:64881" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="64833:64859" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="64985:65298" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65004:65283" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65078:65263" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65118:65229" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65139:65207" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65350:65687" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65369:65672" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65474:65652" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65514:65618" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65535:65596" ph="..." />
-            <marker date="1512888038000" expanded="true" signature="65761:65800" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +580,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -858,15 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,10 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,15 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,18 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#350#351#0" expanded="false" />
-            <element signature="e#420#421#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application-peer1.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,25 +666,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
+        <state relative-caret-position="420">
           <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="74" selection-end-column="19" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sping-cloud-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,15 +680,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/CookieUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2734">
+        <state relative-caret-position="165">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,14 +701,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sping-cloud-common/src/main/java/com/chengbinbbs/utils/redis/JedisClientSingle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
+        <state relative-caret-position="60">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sping-cloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-feign/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-userservice/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-turbine/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application-peer1.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding />
         </state>
       </provider>
