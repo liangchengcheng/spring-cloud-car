@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-admin" />
+        <module name="cloud-sleuth" />
         <module name="sping-cloud-common" />
         <module name="spring-cloud-config" />
         <module name="spring-cloud-eureka" />
@@ -16,23 +17,38 @@
         <module name="spring-cloud-turbine" />
         <module name="spring-cloud-zuul" />
       </profile>
-      <profile name="Annotation profile for spring-cloud-car" enabled="true">
-        <sourceOutputDir name="../spring-cloud-eureka/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../spring-cloud-eureka/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="cloud-eureka" />
-      </profile>
       <profile name="Annotation profile for cloud-config" enabled="true">
         <sourceOutputDir name="../spring-cloud-config/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../spring-cloud-config/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config" />
       </profile>
+      <profile name="Annotation profile for cloud-turbine" enabled="true">
+        <sourceOutputDir name="../spring-cloud-turbine/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-cloud-turbine/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-turbine" />
+      </profile>
+      <profile name="Annotation profile for cloud-zuul" enabled="true">
+        <sourceOutputDir name="../spring-cloud-zuul/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-cloud-zuul/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-zuul" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-car" enabled="true">
+        <sourceOutputDir name="../spring-cloud-eureka/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-cloud-eureka/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-eureka" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-admin" target="1.7" />
       <module name="cloud-config" target="1.7" />
       <module name="cloud-eureka" target="1.7" />
+      <module name="cloud-sleuth" target="1.7" />
+      <module name="cloud-turbine" target="1.7" />
+      <module name="cloud-zuul" target="1.7" />
       <module name="sping-cloud-common" target="1.7" />
       <module name="spring-cloud" target="1.7" />
       <module name="spring-cloud-admin" target="1.7" />

@@ -7,13 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-sleuth/cloud-sleuth.iml" filepath="$PROJECT_DIR$/cloud-sleuth/cloud-sleuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-turbine/cloud-turbine.iml" filepath="$PROJECT_DIR$/cloud-turbine/cloud-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/sping-cloud-common/sping-cloud-common.iml" filepath="$PROJECT_DIR$/sping-cloud-common/sping-cloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-car.iml" filepath="$PROJECT_DIR$/spring-cloud-car.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrixDashboard/spring-cloud-hystrixdashboard.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrixDashboard/spring-cloud-hystrixdashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-turbine/spring-cloud-turbine.iml" filepath="$PROJECT_DIR$/spring-cloud-turbine/spring-cloud-turbine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
     </modules>
   </component>
 </project>

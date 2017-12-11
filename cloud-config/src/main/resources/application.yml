@@ -1,0 +1,24 @@
+server:
+  port: 8502
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/,http://peer3:1113/eureka/
+  instance:
+    status-page-url-path: ${management.context-path}/info
+    health-check-url-path: ${management.context-path}/health
+
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/Tlsy/config-server.git
+          username: Tlsy
+          password: lsy417937
+management:
+  context-path: /

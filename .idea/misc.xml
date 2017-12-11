@@ -8,6 +8,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-admin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-userservice/pom.xml" />
       </set>
