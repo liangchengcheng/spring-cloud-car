@@ -21,7 +21,7 @@
         <module>spring-cloud-feign</module>
         <module>cloud-zuul</module>
         <module>spring-cloud-hystrixDashboard</module>
-        <module>sping-cloud-common</module>
+        <module>api-common</module>
         <module>cloud-admin</module>
         <module>cloud-eureka</module>
         <module>cloud-config</module>
@@ -29,6 +29,8 @@
         <module>cloud-turbine</module>
         <module>cloud-zuul</module>
         <module>cloud-turbine</module>
+        <module>service-redis</module>
+        <module>service-redis-client</module>
     </modules>
 
     <properties>

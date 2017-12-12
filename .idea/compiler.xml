@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-common" />
         <module name="cloud-admin" />
         <module name="cloud-config" />
         <module name="cloud-eureka" />
         <module name="cloud-sleuth" />
         <module name="cloud-turbine" />
         <module name="cloud-zuul" />
+        <module name="service-redis" />
+        <module name="service-redis-client" />
         <module name="sping-cloud-common" />
         <module name="spring-cloud-config" />
         <module name="spring-cloud-eureka" />
@@ -23,12 +26,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-common" target="1.7" />
       <module name="cloud-admin" target="1.7" />
       <module name="cloud-config" target="1.7" />
       <module name="cloud-eureka" target="1.7" />
       <module name="cloud-sleuth" target="1.7" />
       <module name="cloud-turbine" target="1.7" />
       <module name="cloud-zuul" target="1.7" />
+      <module name="service-redis" target="1.7" />
+      <module name="service-redis-client" target="1.7" />
       <module name="sping-cloud-common" target="1.7" />
       <module name="spring-cloud" target="1.7" />
       <module name="spring-cloud-admin" target="1.7" />
