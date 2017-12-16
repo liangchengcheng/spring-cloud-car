@@ -12,10 +12,11 @@
     <artifactId>service-redis-client</artifactId>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-feign -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
-            <version>${springCloudVersion}</version>
+            <version>1.3.5.RELEASE</version>
         </dependency>
     </dependencies>
 </project>
