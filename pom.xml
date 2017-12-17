@@ -31,6 +31,8 @@
         <module>cloud-turbine</module>
         <module>service-redis</module>
         <module>service-redis-client</module>
+        <module>service-company-client</module>
+        <module>service-company</module>
     </modules>
 
     <properties>
