@@ -30,7 +30,9 @@ public class JdbcUtil {
 		}
 	}
 
-	// 更新数据
+	/**
+	 * 更新数据
+	 */
 	public boolean updateByParams(String sql, List params) throws SQLException {
 		// 影响行数
 		int result = -1;
@@ -46,7 +48,9 @@ public class JdbcUtil {
 		return result > 0 ? true : false;
 	}
 
-	// 查询多条记录
+	/**
+	 * 查询多条记录
+	 */
 	public List<Map> selectByParams(String sql, List params) throws SQLException {
 		List<Map> list = new ArrayList<> ();
 		int index = 1;
@@ -74,7 +78,9 @@ public class JdbcUtil {
 		return list;
 	}
 
-	// 释放连接
+	/**
+	 * 释放连接
+	 */
 	public void release() {
 		try {
 			if (null != rs) rs.close();
