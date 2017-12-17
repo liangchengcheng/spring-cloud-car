@@ -3,7 +3,7 @@ package com.hdsx.car.company;
 import com.hdsx.car.company.hystrix.CartServiceHystrix;
 import com.hdsx.car.model.Combotree;
 import com.hdsx.car.model.CompanyVo;
-import javafx.scene.control.Pagination;
+import com.hdsx.car.model.Pagination;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

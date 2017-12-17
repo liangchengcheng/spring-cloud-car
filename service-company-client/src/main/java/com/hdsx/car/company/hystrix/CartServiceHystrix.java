@@ -3,7 +3,7 @@ package com.hdsx.car.company.hystrix;
 import com.hdsx.car.company.CompanyService;
 import com.hdsx.car.model.Combotree;
 import com.hdsx.car.model.CompanyVo;
-import javafx.scene.control.Pagination;
+import com.hdsx.car.model.Pagination;
 
 import java.util.List;
 
