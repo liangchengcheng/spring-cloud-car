@@ -33,6 +33,8 @@
         <module>service-redis-client</module>
         <module>service-company-client</module>
         <module>service-company</module>
+        <module>service-rabbitmq</module>
+        <module>service-rabbitmq-client</module>
     </modules>
 
     <properties>

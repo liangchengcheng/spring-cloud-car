@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-company/service-company.iml" filepath="$PROJECT_DIR$/service-company/service-company.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-company-client/service-company-client.iml" filepath="$PROJECT_DIR$/service-company-client/service-company-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" filepath="$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-rabbitmq-client/service-rabbitmq-client.iml" filepath="$PROJECT_DIR$/service-rabbitmq-client/service-rabbitmq-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-redis/service-redis.iml" filepath="$PROJECT_DIR$/service-redis/service-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-redis-client/service-redis-client.iml" filepath="$PROJECT_DIR$/service-redis-client/service-redis-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-car.iml" filepath="$PROJECT_DIR$/spring-cloud-car.iml" />
