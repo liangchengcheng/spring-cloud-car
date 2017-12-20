@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-rabbitmq-client/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-rabbitmq/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_6_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_6_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_4_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-rabbitmq-client/src/main/java/com/hdsx/car/mq/RabbitMqService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-rabbitmq-client/src/main/java/com/hdsx/car/mq/histrix/RabbitMqServiceHystrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/RabbitMQApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-rabbitmq-client/pom.xml" afterPath="$PROJECT_DIR$/service-rabbitmq-client/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-rabbitmq-client/service-rabbitmq-client.iml" afterPath="$PROJECT_DIR$/service-rabbitmq-client/service-rabbitmq-client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-rabbitmq/pom.xml" afterPath="$PROJECT_DIR$/service-rabbitmq/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" afterPath="$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/histrix/RedisServiceHystrix.java" afterPath="$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/histrix/RedisServiceHystrix.java" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +44,8 @@
     <ignored path="$PROJECT_DIR$/service-redis-client/target/" />
     <ignored path="$PROJECT_DIR$/service-company-client/target/" />
     <ignored path="$PROJECT_DIR$/service-company/target/" />
+    <ignored path="$PROJECT_DIR$/service-rabbitmq-client/target/" />
+    <ignored path="$PROJECT_DIR$/service-rabbitmq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,33 +60,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompanyServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java">
+      <file leaf-file-name="RabbitMqServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/RedisService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-redis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/impl/RedisServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="299">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -78,28 +91,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-rabbitmq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-rabbitmq-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CompanyVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -162,21 +165,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-sleuth/src/main/java/com/hdsx/car/sleuth/SleuthApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-sleuth/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-sleuth/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/entity/XbinResult.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/api-common/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/service-redis-client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul/src/main/java/com/hdsx/car/histrix/RedisServiceHystrix.java" />
         <option value="$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/RedisService.java" />
-        <option value="$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/histrix/RedisServiceHystrix.java" />
         <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/Swagger2.java" />
-        <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/ServiceRedisApplication.java" />
         <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/config/RedisClusterProperty.java" />
         <option value="$PROJECT_DIR$/service-redis/pom.xml" />
         <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/impl/RedisServiceImpl.java" />
@@ -213,6 +208,14 @@
         <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/CompanyService.java" />
         <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/hystrix/CartServiceHystrix.java" />
         <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-rabbitmq-client/pom.xml" />
+        <option value="$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/histrix/RedisServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/service-rabbitmq-client/src/main/java/com/hdsx/car/mq/RabbitMqService.java" />
+        <option value="$PROJECT_DIR$/service-rabbitmq-client/src/main/java/com/hdsx/car/mq/histrix/RabbitMqServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/ServiceRedisApplication.java" />
+        <option value="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/RabbitMQApplication.java" />
+        <option value="$PROJECT_DIR$/service-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -249,8 +252,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="329" />
-    <option name="y" value="22" />
+    <option name="x" value="172" />
+    <option name="y" value="54" />
     <option name="width" value="1280" />
     <option name="height" value="692" />
   </component>
@@ -280,6 +283,173 @@
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="histrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-redis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -294,7 +464,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1544477" />
-    <property name="project.structure.side.proportion" value="0.13618676" />
+    <property name="project.structure.side.proportion" value="0.2467917" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -305,11 +475,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdsx.rabbitmq.service" />
+      <recent name="com.hdsx.car.mq" />
       <recent name="com.hdsx.car.company.service" />
       <recent name="com.hdsx.car.company" />
       <recent name="com.hdsx.car.zuul" />
-      <recent name="com.hdsx.car.sleth" />
-      <recent name="com.hdsx.admin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils" />
@@ -591,15 +761,16 @@
       <workItem from="1513231402298" duration="934000" />
       <workItem from="1513426358619" duration="2761000" />
       <workItem from="1513429136089" duration="16741000" />
-      <workItem from="1513588497159" duration="1272000" />
+      <workItem from="1513588497159" duration="3234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70723000" />
+    <option name="totallyTimeSpent" value="72685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="329" y="22" width="1280" height="692" extended-state="0" />
+    <frame x="172" y="54" width="1280" height="692" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -615,7 +786,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6848674" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37802908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37802908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -645,48 +816,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/BaseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CompanyQualification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="5" lean-forward="false" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/Combotree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/DictType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/DictValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/PersonEducation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
@@ -838,24 +967,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CompanyRegist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/histrix/RedisServiceHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -864,13 +979,6 @@
         <state relative-caret-position="183">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -905,25 +1013,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-company/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/QueryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/hystrix/CartServiceHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -949,6 +1042,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -965,16 +1061,8 @@
         <state relative-caret-position="-421">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,19 +1074,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-rabbitmq/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service-redis-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/hystrix/CartServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/histrix/RedisServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-rabbitmq-client/src/main/java/com/hdsx/car/mq/RabbitMqService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-rabbitmq-client/src/main/java/com/hdsx/car/mq/histrix/RabbitMqServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/config/RedisClusterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/ServiceRedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/RabbitMQApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-rabbitmq-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,11 +1250,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-eureka</last-edited>
+          <last-edited>service-rabbitmq</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.13618676" />
+                <option value="0.2467917" />
                 <option value="0.6" />
               </list>
             </option>

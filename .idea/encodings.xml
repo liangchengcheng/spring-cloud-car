@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/cloud-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-company" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-company-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-rabbitmq-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-redis-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-feign" charset="UTF-8" />

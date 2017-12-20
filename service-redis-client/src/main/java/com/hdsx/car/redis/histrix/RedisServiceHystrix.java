@@ -2,9 +2,11 @@ package com.hdsx.car.redis.histrix;
 
 import com.hdsx.car.redis.RedisService;
 import org.springframework.cache.CacheManager;
+import org.springframework.stereotype.Component;
 
 import java.util.Set;
 
+@Component
 public class RedisServiceHystrix implements RedisService {
 
     @Override

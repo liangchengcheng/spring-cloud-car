@@ -15,6 +15,8 @@
         <module name="cloud-zuul" />
         <module name="service-company" />
         <module name="service-company-client" />
+        <module name="service-rabbitmq" />
+        <module name="service-rabbitmq-client" />
         <module name="service-redis" />
         <module name="service-redis-client" />
         <module name="sping-cloud-common" />
@@ -37,6 +39,8 @@
       <module name="cloud-zuul" target="1.7" />
       <module name="service-company" target="1.7" />
       <module name="service-company-client" target="1.7" />
+      <module name="service-rabbitmq" target="1.7" />
+      <module name="service-rabbitmq-client" target="1.7" />
       <module name="service-redis" target="1.7" />
       <module name="service-redis-client" target="1.7" />
       <module name="sping-cloud-common" target="1.7" />
