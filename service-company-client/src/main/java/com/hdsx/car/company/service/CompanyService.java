@@ -1,19 +1,18 @@
-package com.hdsx.car.company;
+package com.hdsx.car.company.service;
 
-import com.hdsx.car.company.hystrix.CartServiceHystrix;
 import com.hdsx.car.model.Combotree;
 import com.hdsx.car.model.CompanyVo;
 import com.hdsx.car.model.Pagination;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.*;
-
+import com.hdsx.car.company.service.hystrix.CompanyServiceHystrix;
 import java.util.List;
 
 /**
  * @ResponseBody  应不应该加呢？
  */
 
-@FeignClient(value = "service-cart",fallback = CartServiceHystrix.class)
+@FeignClient(value = "service-cart",fallback = CompanyServiceHystrix.class)
 public interface CompanyService {
 
     /**

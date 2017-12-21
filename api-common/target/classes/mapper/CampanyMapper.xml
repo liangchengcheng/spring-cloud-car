@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hdsx.car.dao.CompanyMapper">
+	<!-- 分页查询 -->
+	<select id="getList" parameterType="com.hdsx.car.model.QueryBean" resultType="com.hdsx.car.model.CompanyRegist">
+		SELECT A.societyId,A.campanyName,A.legalRepresName,A.IDCardNumber,A.updateTime,A.registCity,A.campanyPhone,A.registTime,A.linkman,
+		M1.MVALUE CAMPANYNATURE,M2.MVALUE IDCardType
+		FROM CAMPANY_REGIST A 
+		LEFT JOIN DICT_VALUE M1 ON A.CAMPANYNATURE = M1.MCODE AND M1.MTYPE = "companynature"
+		LEFT JOIN DICT_VALUE M2 ON A.IDCardType = M2.MCODE AND M2.MTYPE = "idcard"
+		<where>
+			<if test="campany.campanyName != null and campany.campanyName != ''">
+				CAMPANYNAME LIKE CONCAT('%',#{campany.campanyName},'%')
+			</if>
+			<if test="campany.registCity != null and campany.registCity != ''">
+			 	AND REGISTCITY = #{campany.registCity}
+			</if>
+		</where>
+		ORDER BY UPDATETIME 
+		<if test="pagination.startRow != null and pagination.startRow != '' and pagination.pageSize !=null and pagination.pageSize != ''" >
+			LIMIT #{pagination.startRow},#{pagination.pageSize};
+		</if>
+	</select>
+
+	<select id="getTotal" parameterType="com.hdsxtech.entity.QueryBean" resultType="int">
+		SELECT COUNT(1) FROM CAMPANY_REGIST 
+		<where>
+			<if test="campany.campanyName != null and campany.campanyName != ''">
+				CAMPANYNAME LIKE '%'||#{campany.campanyName}||'%'
+			</if>
+			<if test="campany.registCity != null and campany.registCity != ''">
+			 	AND REGISTCITY = #{campany.registCity}
+			</if>
+		</where>
+	</select>
+	<!-- 新增企业注册信息 -->
+	<insert id="addCampanyRegist" parameterType="com.hdsx.car.model.CompanyRegist">
+		INSERT INTO CAMPANY_REGIST VALUES(#{societyId},#{campanyName},#{legalRepresName},#{IDCardType},#{IDCardNumber},#{updateTime},
+		#{campanyNature},#{registCity},#{campanyPhone},#{registTime},#{linkman});
+	</insert>
+	
+	<!-- 新增企业资质信息 -->
+	<insert id="addCampanyQualification" parameterType="com.hdsx.car.model.CompanyQualification">
+		INSERT INTO CAMPANY_QUALIFICATION VALUES(#{societyId},#{idType},#{campanyLevel},#{qualificationName},#{qualificationNumber},
+		#{qualificationInstitution},#{qualificationAssessDate},#{qualificationExpireDate},#{status},#{updateTime},
+		#{permitPlace},#{conferInstitution},#{conferTime});
+	</insert>
+	<!-- 更新企业注册信息 -->
+	<update id="updateCampanyRegist" parameterType="com.hdsx.car.model.CompanyRegist">
+		UPDATE CAMPANY_REGIST SET CAMPANYNAME = #{campanyName},LEGALREPRESNAME = #{legalRepresName}, IDCARDTYPE = #{IDCardType}, IDCARDNUMBER = #{IDCardNumber},UPDATETIME = #{updateTime} ,
+		campanyNature = #{campanyNature},registCity = #{registCity},campanyPhone = #{campanyPhone},registTime=#{registTime},linkman = #{linkman}
+		WHERE SOCIETYID = #{societyId}
+	</update>
+	<!-- 更新企业资质信息 -->
+	<update id="updateCampanyQualification" parameterType="com.hdsx.car.model.CompanyQualification">
+		UPDATE CAMPANY_QUALIFICATION SET IDTYPE = #{idType},CAMPANYLEVEL = #{campanyLevel}, QUALIFICATIONNAME = #{qualificationName}, QUALIFICATIONNUMBER = #{qualificationNumber},
+		QUALIFICATIONINSTITUTION = #{qualificationInstitution},QUALIFICATIONASSESSDATE = #{qualificationAssessDate}, QUALIFICATIONEXPIREDATE = #{qualificationExpireDate}, STATUS = #{status} , UPDATETIME = #{updateTime}, 
+		PERMITPLACE = #{permitPlace},CONFERINSTITUTION = #{conferInstitution},CONFERTIME = #{conferTime}
+		WHERE SOCIETYID = #{societyId}
+	</update>
+	<!-- 删除公司注册信息 -->
+	<delete id="deleteCampanyRegist" parameterType="String">
+		DELETE FROM CAMPANY_REGIST WHERE SOCIETYID = #{societyId}
+	</delete>
+	<!-- 删除企业资质信息 -->
+	<delete id="deleteCampanyQualification" parameterType="String">
+		DELETE FROM CAMPANY_QUALIFICATION WHERE SOCIETYID = #{societyId}
+	</delete>
+	<!-- 查询企业注册信息 -->
+	<select id="getCampanyRegist" parameterType="String" resultType="com.hdsx.car.model.CompanyRegist">
+		<!-- SELECT A.societyId,A.campanyName,A.legalRepresName,A.IDCardNumber,A.updateTime,A.registCity,A.campanyPhone,A.registTime,A.linkman,
+			M1.MVALUE CAMPANYNATURE,M2.MVALUE IDCardType
+		FROM CAMPANY_REGIST A LEFT JOIN DICT_VALUE M1 ON A.CAMPANYNATURE = M1.MCODE AND M1.MTYPE = "companynature"
+		LEFT JOIN DICT_VALUE M2 ON A.IDCardType = M2.MCODE AND M2.MTYPE = "idcard" WHERE SOCIETYID = #{societyId};  -->
+		SELECT * FROM CAMPANY_REGIST WHERE SOCIETYID = #{societyId};
+	</select>
+	<!-- 查询企业资质信息 -->
+	<select id="getCampanyQualification" parameterType="String" resultType="com.hdsx.car.model.CompanyQualification">
+		<!-- SELECT
+			A.societyId,A.idType,A.campanyLevel,A.qualificationName,A.qualificationNumber,A.qualificationInstitution,
+			A.qualificationAssessDate,A.qualificationExpireDate,A.updateTime,A.permitPlace,A.conferInstitution,A.conferTime,
+			M1.MVALUE STATUS
+		FROM CAMPANY_QUALIFICATION A
+		LEFT JOIN DICT_VALUE M1 ON A.STATUS = M1.MCODE AND M1.MTYPE = "companystate" -->
+		SELECT * FROM CAMPANY_QUALIFICATION A WHERE A.SOCIETYID = #{societyId};
+	</select>
+
+	<!-- 查询企业车辆树形结构 -->
+
+	<!--<resultMap  type="com.hdsxtech.entity.CarInformation"  id="carToComboTree">
+		<result column="societyId" property="id"/>
+		<result column="campanyName" property="text"/>
+	</resultMap>-->
+	<resultMap type="com.hdsx.car.model.Combotree" id="campanyTree">
+		<result column="societyId" property="code"/>
+		<result column="campanyName" property="text"/>
+		<collection column="societyId" property="children"
+					ofType="com.hdsxtech.entity.Combotree"
+					select="selectCarList"> <!--column表示外键标识，property表示对象里的对象集合-->
+			<!--<result column="societyId" property="code"/>
+			<result column="plateNumber" property="text"/>-->
+		</collection>
+	</resultMap>
+	<select id="selectCarList" parameterType="com.hdsx.car.model.Combotree" resultType="com.hdsx.car.model.Combotree">
+		SELECT t1.societyId code ,t1.plateNumber text , t2.longitude lon , t2.latitude lat FROM car_information t1 LEFT JOIN warn_gnss_last t2 on t1.plateNumber  =  t2.plateNumber
+		 WHERE societyId = #{code}
+	</select>
+	<select id="getCampanyTree" resultMap="campanyTree">
+		SELECT * FROM campany_regist
+	</select>
+</mapper>

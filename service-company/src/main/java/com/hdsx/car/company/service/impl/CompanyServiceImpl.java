@@ -1,6 +1,6 @@
 package com.hdsx.car.company.service.impl;
 
-import com.hdsx.car.company.CompanyService;
+import com.hdsx.car.company.service.CompanyService;
 import com.hdsx.car.dao.CompanyMapper;
 import com.hdsx.car.model.*;
 import com.hdsx.car.redis.RedisService;
@@ -8,9 +8,6 @@ import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

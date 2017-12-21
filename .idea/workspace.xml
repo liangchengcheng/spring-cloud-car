@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company/src/main/resources/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CompanyServiceHystrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company/src/main/resources/META-INF/app.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company/src/main/resources/logback.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/hystrix/CartServiceHystrix.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/CompanyService.java" afterPath="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/CompanyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/StringUtil.java" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/StringUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java" afterPath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java" afterPath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,76 +55,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DictMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml">
+      <file leaf-file-name="ServiceCompanyApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
-                <marker date="1513858787000" expanded="true" signature="285:353" ph="SELECT SOCIE... CAMPANY_REGIST" />
-                <marker date="1513858787000" expanded="true" signature="501:844" ph="SELECT SOCIE... CAR_INFORMATION" />
-                <marker date="1513858787000" expanded="true" signature="983:1278" ph="select * fro... dict_value" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-624">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="619">
+              <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/CompanyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-290">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <marker date="1513858787000" expanded="true" signature="567:592" ph="/*m1.mvalue " />
-                <marker date="1513858787000" expanded="true" signature="641:719" ph="/*left join " />
-                <marker date="1513858787000" expanded="true" signature="2056:2245" ph="INSERT INTO PERSON_INFORMATION... " />
-                <marker date="1513858787000" expanded="true" signature="2374:2646" ph="INSERT INTO PERSON_QUALIFICATION... " />
-                <marker date="1513858787000" expanded="true" signature="2765:2954" ph="INSERT INTO PERSON_EDUCATION... " />
-                <marker date="1513858787000" expanded="true" signature="3080:3407" ph="UPDATE PERSO... " />
-                <marker date="1513858787000" expanded="true" signature="3539:4011" ph="UPDATE PERSO... " />
-                <marker date="1513858787000" expanded="true" signature="4133:4451" ph="UPDATE PERSO... " />
-                <marker date="1513858787000" expanded="true" signature="4548:4644" ph="DELETE FROM " />
-                <marker date="1513858787000" expanded="true" signature="4744:4842" ph="DELETE FROM " />
-                <marker date="1513858787000" expanded="true" signature="4936:5030" ph="DELETE FROM " />
-                <marker date="1513858787000" expanded="true" signature="5542:5646" ph="SELECT * FRO... PERSON_INFORMATION" />
-                <marker date="1513858787000" expanded="true" signature="6377:6477" ph="SELECT * FRO... PERSON_QUALIFICATION" />
-                <marker date="1513858787000" expanded="true" signature="6919:7015" ph="SELECT * FRO... PERSON_EDUCATION" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml">
+      <file leaf-file-name="CompanyServiceHystrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CompanyServiceHystrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="34" />
               <folding>
-                <marker date="1513858787000" expanded="true" signature="2676:3504" ph="INSERT INTO CAR_INFORMATION... " />
-                <marker date="1513858787000" expanded="true" signature="3611:4495" ph="UPDATE CAR_I... " />
-                <marker date="1513858787000" expanded="true" signature="4575:4639" ph="DELETE FROM " />
-                <marker date="1513858787000" expanded="true" signature="4772:4835" ph="SELECT * FRO... CAR_INFORMATION" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CampanyMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="35" />
-              <folding>
-                <marker date="1513858469000" expanded="true" signature="1737:1937" ph="INSERT INTO CAMPANY_REGIST... " />
-                <marker date="1513858469000" expanded="true" signature="2068:2354" ph="INSERT INTO CAMPANY_QUALIFICATION... " />
-                <marker date="1513858469000" expanded="true" signature="2472:2824" ph="UPDATE CAMPA... " />
-                <marker date="1513858469000" expanded="true" signature="2955:3473" ph="UPDATE CAMPA... " />
-                <marker date="1513858469000" expanded="true" signature="3564:3621" ph="DELETE FROM " />
-                <marker date="1513858469000" expanded="true" signature="3719:3783" ph="DELETE FROM " />
-                <marker date="1513858469000" expanded="true" signature="4326:4385" ph="SELECT * FRO... CAMPANY_REGIST" />
-                <marker date="1513858469000" expanded="true" signature="4907:4977" ph="SELECT * FRO... CAMPANY_QUALIFICATION" />
-                <marker date="1513858469000" expanded="true" signature="5785:5985" ph="SELECT t1.so... car_information" />
-                <marker date="1513858469000" expanded="true" signature="6053:6081" ph="SELECT * FRO... campany_regist" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,12 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/RedisService.java" />
-        <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/Swagger2.java" />
-        <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/config/RedisClusterProperty.java" />
-        <option value="$PROJECT_DIR$/service-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/impl/RedisServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/config/RedisObjectSerializer.java" />
         <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/config/RedisClusterConfig.java" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/BaseModel.java" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CompanyQualification.java" />
@@ -210,10 +216,8 @@
         <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/Swagger2.java" />
         <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java" />
         <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceOrderApplication.java" />
-        <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java" />
         <option value="$PROJECT_DIR$/service-company/pom.xml" />
         <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/CompanyService.java" />
-        <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/hystrix/CartServiceHystrix.java" />
         <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java" />
         <option value="$PROJECT_DIR$/service-rabbitmq-client/pom.xml" />
         <option value="$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/histrix/RedisServiceHystrix.java" />
@@ -223,11 +227,19 @@
         <option value="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/RabbitMQApplication.java" />
         <option value="$PROJECT_DIR$/service-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" />
         <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" />
         <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml" />
         <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml" />
+        <option value="$PROJECT_DIR$/service-company/src/main/resources/META-INF/app.properties" />
+        <option value="$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-company/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/hystrix/CartServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java" />
+        <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CompanyServceHystrix.java" />
+        <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/CompanyService.java" />
       </list>
     </option>
   </component>
@@ -264,8 +276,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
-    <option name="y" value="83" />
+    <option name="x" value="22" />
+    <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="692" />
   </component>
@@ -295,87 +307,102 @@
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hdsx" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hdsx" type="462c0819:PsiDirectoryNode" />
               <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hdsx" type="462c0819:PsiDirectoryNode" />
               <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -383,11 +410,11 @@
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
@@ -406,6 +433,83 @@
               <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
@@ -450,11 +554,11 @@
       <recent name="com.hdsx.car.zuul" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service-company/src/main/resources" />
       <recent name="$PROJECT_DIR$/api-common/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/api-common/src/main/resources" />
       <recent name="$PROJECT_DIR$/service-company-client/src/main/resources" />
       <recent name="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils" />
-      <recent name="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -469,7 +573,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceCompanyApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -481,15 +585,15 @@
       <module name="cloud-admin" />
       <envs />
     </configuration>
-    <configuration name="SleuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceCompanyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.hdsx.car.sleuth.*" />
+          <option name="PATTERN" value="com.hdsx.car.company.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.car.sleuth.SleuthApplication" />
-      <module name="cloud-sleuth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.car.company.service.ServiceCompanyApplication" />
+      <module name="service-company" />
       <envs />
     </configuration>
     <configuration name="SpringCloudAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -681,19 +785,19 @@
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication" />
       <item index="7" class="java.lang.String" itemvalue="Spring Boot.SpringCloudTurbineApplication" />
       <item index="8" class="java.lang.String" itemvalue="Spring Boot.SpringCloudUserserviceApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SleuthApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication (2)" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.SpringCloudTurbineApplication (1)" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication (3)" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication (2)" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringCloudTurbineApplication (1)" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication (3)" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.ServiceCompanyApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringCloudTurbineApplication (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.SleuthApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ServiceCompanyApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringCloudZuulApplication (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringCloudTurbineApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -730,19 +834,19 @@
       <workItem from="1513426358619" duration="2761000" />
       <workItem from="1513429136089" duration="16741000" />
       <workItem from="1513588497159" duration="3423000" />
-      <workItem from="1513857794431" duration="993000" />
+      <workItem from="1513857794431" duration="2638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73867000" />
+    <option name="totallyTimeSpent" value="75512000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="83" width="1280" height="692" extended-state="0" />
-    <editor active="true" />
+    <frame x="22" y="22" width="1280" height="692" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -750,7 +854,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35215947" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64656615" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.64656615" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6848674" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -768,7 +872,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297342" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -785,55 +888,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/DictMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/PersonMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/FastJsonConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/PropertyLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/IDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -927,23 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/CompanyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/impl/RedisServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -962,13 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/hystrix/CartServiceHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1003,6 +1033,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="42" column="19" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="42" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,14 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/Docket.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1080,26 +1103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-company-client/src/main/resources/META-INF/app.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1116,14 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/CarMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1174,8 +1173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="246">
+          <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
           <folding>
             <marker date="1513858787000" expanded="true" signature="567:592" ph="/*m1.mvalue " />
             <marker date="1513858787000" expanded="true" signature="641:719" ph="/*left join " />
@@ -1191,6 +1190,125 @@
             <marker date="1513858787000" expanded="true" signature="5542:5646" ph="SELECT * FRO... PERSON_INFORMATION" />
             <marker date="1513858787000" expanded="true" signature="6377:6477" ph="SELECT * FRO... PERSON_QUALIFICATION" />
             <marker date="1513858787000" expanded="true" signature="6919:7015" ph="SELECT * FRO... PERSON_EDUCATION" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/CarMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/META-INF/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1534">
+          <caret line="827" column="20" lean-forward="false" selection-start-line="827" selection-start-column="20" selection-end-line="827" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="489" column="20" lean-forward="false" selection-start-line="489" selection-start-column="20" selection-end-line="489" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CartServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CompanyServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
           </folding>
         </state>
       </provider>

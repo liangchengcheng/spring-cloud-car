@@ -1,6 +1,6 @@
 package com.hdsx.car.utils;
 
-import com.colossus.common.exception.BaseException;
+
 import com.google.common.collect.Lists;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Base64;
@@ -377,8 +377,9 @@ public class StringUtil extends StringUtils {
         try {
             return Hex.decodeHex(input.toCharArray());
         } catch (DecoderException e) {
-            throw BaseException.unchecked(e);
+            e.printStackTrace();
         }
+        return null;
     }
 
     /**
@@ -470,8 +471,9 @@ public class StringUtil extends StringUtils {
         try {
             return URLEncoder.encode(part, DEFAULT_URL_ENCODING);
         } catch (UnsupportedEncodingException e) {
-            throw BaseException.unchecked(e);
+           e.printStackTrace();
         }
+        return null;
     }
 
     /**
@@ -482,8 +484,10 @@ public class StringUtil extends StringUtils {
         try {
             return URLDecoder.decode(part, DEFAULT_URL_ENCODING);
         } catch (UnsupportedEncodingException e) {
-            throw BaseException.unchecked(e);
+            e.printStackTrace();
         }
+
+        return null;
     }
 
     private static Pattern linePattern = Pattern.compile("_(\\w)");

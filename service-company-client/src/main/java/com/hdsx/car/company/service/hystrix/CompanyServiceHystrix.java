@@ -1,13 +1,23 @@
-package com.hdsx.car.company.hystrix;
+package com.hdsx.car.company.service.hystrix;
 
-import com.hdsx.car.company.CompanyService;
+import com.hdsx.car.company.service.CompanyService;
 import com.hdsx.car.model.Combotree;
 import com.hdsx.car.model.CompanyVo;
 import com.hdsx.car.model.Pagination;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-public class CartServiceHystrix implements CompanyService {
+import com.hdsx.car.company.service.CompanyService;
+import com.hdsx.car.model.Combotree;
+import com.hdsx.car.model.CompanyVo;
+import com.hdsx.car.model.Pagination;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+
+@Component
+public class CompanyServiceHystrix implements CompanyService {
     @Override
     public Pagination getCompanys(Integer pageNo, Integer pageSize, String campanyName, String registCity) {
         return null;
@@ -43,3 +53,4 @@ public class CartServiceHystrix implements CompanyService {
         return null;
     }
 }
+
