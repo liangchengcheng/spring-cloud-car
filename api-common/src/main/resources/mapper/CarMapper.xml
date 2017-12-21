@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.hdsxtech.mapper.CarMapper">
+<mapper namespace="com.hdsx.car.dao.CarMapper">
 	<!-- 分页查询 -->
-	<select id="getList" parameterType="com.hdsxtech.entity.QueryBean"
-		resultType="com.hdsxtech.entity.CarInformation">
+	<select id="getList" parameterType="com.hdsx.car.model.QueryBean"
+		resultType="com.hdsx.car.model.CarInformation">
 		SELECT
 			A.societyId,
 			A.plateNumber,
@@ -74,7 +74,7 @@
 		</where>
 	</select>
 	<!-- 新增车辆信息 -->
-	<insert id="addCar" parameterType="com.hdsxtech.entity.CarInformation">
+	<insert id="addCar" parameterType="com.hdsx.car.model.CarInformation">
 		INSERT INTO CAR_INFORMATION
 		(SOCIETYID,PLATENUMBER,PLATECOLOR,CERTIFICATETYPE,CERTIFICATENUMBER,BRANDNUMBER,CARTYPE,
 		CARLIMITSEAT,CARTONNAGE,CARTRACTIONMASS,CARLENGTH,CARHIGH,CARWIDTH,BUSINESSSCOPE,STARTIME,ENDTIME,CERTIFICATEINSTITUTION,
@@ -85,7 +85,7 @@
 		#{carCheckDate},#{carNextCheckDate},#{status},#{updateTime},#{dangerType});
 	</insert>
 	<!-- 更新车辆信息 -->
-	<update id="updateCar" parameterType="com.hdsxtech.entity.CarInformation">
+	<update id="updateCar" parameterType="com.hdsx.car.model.CarInformation">
 		UPDATE CAR_INFORMATION SET
 		SOCIETYID = #{societyId},PLATECOLOR = #{plateColor}, CERTIFICATETYPE =#{certificateType}, 
 		CERTIFICATENUMBER = #{certificateNumber},BRANDNUMBER = #{brandNumber},CARTYPE = #{carType},
@@ -105,7 +105,7 @@
 		WHERE PLATENUMBER = #{plateNumber};
 	</delete>
 	<!-- 车辆信息 -->
-	<select id="getCarInformation" parameterType="String" resultType="com.hdsxtech.entity.CarInformation">
+	<select id="getCarInformation" parameterType="String" resultType="com.hdsx.car.model.CarInformation">
 		SELECT * FROM CAR_INFORMATION WHERE PLATENUMBER =#{plateNumber};
 	</select>
 </mapper>

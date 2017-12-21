@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.hdsxtech.mapper.DictMapper">
+<mapper namespace="com.hdsx.car.dao.DictMapper">
 	<!-- 查询公司 -->
-	<select id="getCampany" resultType="com.hdsxtech.entity.CampanyRegist">
+	<select id="getCampany" resultType="com.hdsx.car.model.CompanyRegist">
 		SELECT SOCIETYID,CAMPANYNAME FROM CAMPANY_REGIST ORDER BY UPDATETIME
 	</select>
 	<!-- 查询车辆-->
-	<select id="getCars" parameterType="com.hdsxtech.entity.CarInformation" resultType="com.hdsxtech.entity.CarInformation">
+	<select id="getCars" parameterType="com.hdsx.car.model.CarInformation" resultType="com.hdsx.car.model.CarInformation">
 		SELECT SOCIETYID,PLATENUMBER FROM CAR_INFORMATION <!-- WHERE SOCIETYID = #{societyId} -->
 		<where>
 			<if test="societyId != null and societyId != ''">	
@@ -19,7 +19,7 @@
 		ORDER BY UPDATETIME
 	</select>
 	<!-- 查询字典 -->
-	<select id="getDict" parameterType="com.hdsxtech.entity.DictValue" resultType="com.hdsxtech.entity.DictValue">
+	<select id="getDict" parameterType="com.hdsx.car.model.DictValue" resultType="com.hdsx.car.model.DictValue">
 		select * from dict_value 
 		<where>
 			<if test="mtype != null and mtype != ''">	

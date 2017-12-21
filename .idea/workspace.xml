@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/META-INF/app.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java" afterPath="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,105 +45,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RabbitMqServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java">
+      <file leaf-file-name="DictMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1513858787000" expanded="true" signature="285:353" ph="SELECT SOCIE... CAMPANY_REGIST" />
+                <marker date="1513858787000" expanded="true" signature="501:844" ph="SELECT SOCIE... CAR_INFORMATION" />
+                <marker date="1513858787000" expanded="true" signature="983:1278" ph="select * fro... dict_value" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceCompanyApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java">
+      <file leaf-file-name="PersonMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="-624">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding>
+                <marker date="1513858787000" expanded="true" signature="567:592" ph="/*m1.mvalue " />
+                <marker date="1513858787000" expanded="true" signature="641:719" ph="/*left join " />
+                <marker date="1513858787000" expanded="true" signature="2056:2245" ph="INSERT INTO PERSON_INFORMATION... " />
+                <marker date="1513858787000" expanded="true" signature="2374:2646" ph="INSERT INTO PERSON_QUALIFICATION... " />
+                <marker date="1513858787000" expanded="true" signature="2765:2954" ph="INSERT INTO PERSON_EDUCATION... " />
+                <marker date="1513858787000" expanded="true" signature="3080:3407" ph="UPDATE PERSO... " />
+                <marker date="1513858787000" expanded="true" signature="3539:4011" ph="UPDATE PERSO... " />
+                <marker date="1513858787000" expanded="true" signature="4133:4451" ph="UPDATE PERSO... " />
+                <marker date="1513858787000" expanded="true" signature="4548:4644" ph="DELETE FROM " />
+                <marker date="1513858787000" expanded="true" signature="4744:4842" ph="DELETE FROM " />
+                <marker date="1513858787000" expanded="true" signature="4936:5030" ph="DELETE FROM " />
+                <marker date="1513858787000" expanded="true" signature="5542:5646" ph="SELECT * FRO... PERSON_INFORMATION" />
+                <marker date="1513858787000" expanded="true" signature="6377:6477" ph="SELECT * FRO... PERSON_QUALIFICATION" />
+                <marker date="1513858787000" expanded="true" signature="6919:7015" ph="SELECT * FRO... PERSON_EDUCATION" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java">
+      <file leaf-file-name="CarMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="30">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding>
+                <marker date="1513858787000" expanded="true" signature="2676:3504" ph="INSERT INTO CAR_INFORMATION... " />
+                <marker date="1513858787000" expanded="true" signature="3611:4495" ph="UPDATE CAR_I... " />
+                <marker date="1513858787000" expanded="true" signature="4575:4639" ph="DELETE FROM " />
+                <marker date="1513858787000" expanded="true" signature="4772:4835" ph="SELECT * FRO... CAR_INFORMATION" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company-client/src/main/resources/META-INF/app.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company-client/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CampanyMapper.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CampanyMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="35" />
               <folding>
-                <marker date="1513247999000" expanded="true" signature="1743:1943" ph="INSERT INTO CAMPANY_REGIST... " />
-                <marker date="1513247999000" expanded="true" signature="2075:2361" ph="INSERT INTO CAMPANY_QUALIFICATION... " />
-                <marker date="1513247999000" expanded="true" signature="2480:2832" ph="UPDATE CAMPA... " />
-                <marker date="1513247999000" expanded="true" signature="2964:3482" ph="UPDATE CAMPA... " />
-                <marker date="1513247999000" expanded="true" signature="3573:3630" ph="DELETE FROM " />
-                <marker date="1513247999000" expanded="true" signature="3728:3792" ph="DELETE FROM " />
-                <marker date="1513247999000" expanded="true" signature="4336:4395" ph="SELECT * FRO... CAMPANY_REGIST" />
-                <marker date="1513247999000" expanded="true" signature="4918:4988" ph="SELECT * FRO... CAMPANY_QUALIFICATION" />
-                <marker date="1513247999000" expanded="true" signature="5799:5999" ph="SELECT t1.so... car_information" />
-                <marker date="1513247999000" expanded="true" signature="6067:6095" ph="SELECT * FRO... campany_regist" />
+                <marker date="1513858469000" expanded="true" signature="1737:1937" ph="INSERT INTO CAMPANY_REGIST... " />
+                <marker date="1513858469000" expanded="true" signature="2068:2354" ph="INSERT INTO CAMPANY_QUALIFICATION... " />
+                <marker date="1513858469000" expanded="true" signature="2472:2824" ph="UPDATE CAMPA... " />
+                <marker date="1513858469000" expanded="true" signature="2955:3473" ph="UPDATE CAMPA... " />
+                <marker date="1513858469000" expanded="true" signature="3564:3621" ph="DELETE FROM " />
+                <marker date="1513858469000" expanded="true" signature="3719:3783" ph="DELETE FROM " />
+                <marker date="1513858469000" expanded="true" signature="4326:4385" ph="SELECT * FRO... CAMPANY_REGIST" />
+                <marker date="1513858469000" expanded="true" signature="4907:4977" ph="SELECT * FRO... CAMPANY_QUALIFICATION" />
+                <marker date="1513858469000" expanded="true" signature="5785:5985" ph="SELECT t1.so... car_information" />
+                <marker date="1513858469000" expanded="true" signature="6053:6081" ph="SELECT * FRO... campany_regist" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-redis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-rabbitmq/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-rabbitmq-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -213,10 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
-        <option value="$PROJECT_DIR$/service-redis-client/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-zuul/src/main/java/com/hdsx/car/histrix/RedisServiceHystrix.java" />
         <option value="$PROJECT_DIR$/service-redis-client/src/main/java/com/hdsx/car/redis/RedisService.java" />
         <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/Swagger2.java" />
         <option value="$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/config/RedisClusterProperty.java" />
@@ -264,6 +224,10 @@
         <option value="$PROJECT_DIR$/service-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/service-rabbitmq/src/main/java/com/hdsx/rabbitmq/service/impl/RabbitMqServiceImpl.java" />
         <option value="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" />
+        <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" />
+        <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml" />
+        <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml" />
       </list>
     </option>
   </component>
@@ -383,6 +347,30 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hdsx" type="462c0819:PsiDirectoryNode" />
               <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
@@ -742,15 +730,16 @@
       <workItem from="1513426358619" duration="2761000" />
       <workItem from="1513429136089" duration="16741000" />
       <workItem from="1513588497159" duration="3423000" />
-      <workItem from="1513857794431" duration="465000" />
+      <workItem from="1513857794431" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73339000" />
+    <option name="totallyTimeSpent" value="73867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="83" width="1280" height="692" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -766,7 +755,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6848674" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37802908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37802908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -796,34 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CarInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/CompanyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/CarMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/DictMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -952,6 +913,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="94" column="16" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+          <folding>
+            <element signature="e#1925#1926#0" expanded="false" />
+            <element signature="e#1957#1958#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -969,17 +934,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CompanyVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-421">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,7 +1059,7 @@
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1151,21 +1112,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml">
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CompanyVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/CarMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="35" />
           <folding>
-            <marker date="1513247999000" expanded="true" signature="1743:1943" ph="INSERT INTO CAMPANY_REGIST... " />
-            <marker date="1513247999000" expanded="true" signature="2075:2361" ph="INSERT INTO CAMPANY_QUALIFICATION... " />
-            <marker date="1513247999000" expanded="true" signature="2480:2832" ph="UPDATE CAMPA... " />
-            <marker date="1513247999000" expanded="true" signature="2964:3482" ph="UPDATE CAMPA... " />
-            <marker date="1513247999000" expanded="true" signature="3573:3630" ph="DELETE FROM " />
-            <marker date="1513247999000" expanded="true" signature="3728:3792" ph="DELETE FROM " />
-            <marker date="1513247999000" expanded="true" signature="4336:4395" ph="SELECT * FRO... CAMPANY_REGIST" />
-            <marker date="1513247999000" expanded="true" signature="4918:4988" ph="SELECT * FRO... CAMPANY_QUALIFICATION" />
-            <marker date="1513247999000" expanded="true" signature="5799:5999" ph="SELECT t1.so... car_information" />
-            <marker date="1513247999000" expanded="true" signature="6067:6095" ph="SELECT * FRO... campany_regist" />
+            <marker date="1513858469000" expanded="true" signature="1737:1937" ph="INSERT INTO CAMPANY_REGIST... " />
+            <marker date="1513858469000" expanded="true" signature="2068:2354" ph="INSERT INTO CAMPANY_QUALIFICATION... " />
+            <marker date="1513858469000" expanded="true" signature="2472:2824" ph="UPDATE CAMPA... " />
+            <marker date="1513858469000" expanded="true" signature="2955:3473" ph="UPDATE CAMPA... " />
+            <marker date="1513858469000" expanded="true" signature="3564:3621" ph="DELETE FROM " />
+            <marker date="1513858469000" expanded="true" signature="3719:3783" ph="DELETE FROM " />
+            <marker date="1513858469000" expanded="true" signature="4326:4385" ph="SELECT * FRO... CAMPANY_REGIST" />
+            <marker date="1513858469000" expanded="true" signature="4907:4977" ph="SELECT * FRO... CAMPANY_QUALIFICATION" />
+            <marker date="1513858469000" expanded="true" signature="5785:5985" ph="SELECT t1.so... car_information" />
+            <marker date="1513858469000" expanded="true" signature="6053:6081" ph="SELECT * FRO... campany_regist" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <marker date="1513858787000" expanded="true" signature="2676:3504" ph="INSERT INTO CAR_INFORMATION... " />
+            <marker date="1513858787000" expanded="true" signature="3611:4495" ph="UPDATE CAR_I... " />
+            <marker date="1513858787000" expanded="true" signature="4575:4639" ph="DELETE FROM " />
+            <marker date="1513858787000" expanded="true" signature="4772:4835" ph="SELECT * FRO... CAR_INFORMATION" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <marker date="1513858787000" expanded="true" signature="285:353" ph="SELECT SOCIE... CAMPANY_REGIST" />
+            <marker date="1513858787000" expanded="true" signature="501:844" ph="SELECT SOCIE... CAR_INFORMATION" />
+            <marker date="1513858787000" expanded="true" signature="983:1278" ph="select * fro... dict_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <marker date="1513858787000" expanded="true" signature="567:592" ph="/*m1.mvalue " />
+            <marker date="1513858787000" expanded="true" signature="641:719" ph="/*left join " />
+            <marker date="1513858787000" expanded="true" signature="2056:2245" ph="INSERT INTO PERSON_INFORMATION... " />
+            <marker date="1513858787000" expanded="true" signature="2374:2646" ph="INSERT INTO PERSON_QUALIFICATION... " />
+            <marker date="1513858787000" expanded="true" signature="2765:2954" ph="INSERT INTO PERSON_EDUCATION... " />
+            <marker date="1513858787000" expanded="true" signature="3080:3407" ph="UPDATE PERSO... " />
+            <marker date="1513858787000" expanded="true" signature="3539:4011" ph="UPDATE PERSO... " />
+            <marker date="1513858787000" expanded="true" signature="4133:4451" ph="UPDATE PERSO... " />
+            <marker date="1513858787000" expanded="true" signature="4548:4644" ph="DELETE FROM " />
+            <marker date="1513858787000" expanded="true" signature="4744:4842" ph="DELETE FROM " />
+            <marker date="1513858787000" expanded="true" signature="4936:5030" ph="DELETE FROM " />
+            <marker date="1513858787000" expanded="true" signature="5542:5646" ph="SELECT * FRO... PERSON_INFORMATION" />
+            <marker date="1513858787000" expanded="true" signature="6377:6477" ph="SELECT * FRO... PERSON_QUALIFICATION" />
+            <marker date="1513858787000" expanded="true" signature="6919:7015" ph="SELECT * FRO... PERSON_EDUCATION" />
           </folding>
         </state>
       </provider>
