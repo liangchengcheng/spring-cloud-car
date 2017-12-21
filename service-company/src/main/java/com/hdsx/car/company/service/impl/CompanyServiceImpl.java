@@ -24,13 +24,6 @@ public class CompanyServiceImpl implements CompanyService {
     @Autowired
     private RedisService redisService;
 
-    @Value("${redisKey.prefix.cart_order_info_profix}")
-    private String CART_ORDER_INFO_PROFIX;
-    @Value("${redisKey.prefix.cart_order_index_profix}")
-    private String CART_ORDER_INDEX_PROFIX;
-    @Value("${redisKey.prefix.cart_info_profix}")
-    private String CART_INFO_PROFIX;
-
     DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     @ApiOperation("获取企业基本信息列表")

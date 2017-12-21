@@ -1,32 +1,27 @@
-druid:
-    url: jdbc:mysql://localhost:3306/whys?characterEncoding=utf-8
-    driver-class: com.mysql.jdbc.Driver
+spring:
+  datasource:
+    name: service-company
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/whys
     username: root
     password: 123
-    initial-size: 1
-    min-idle: 1
-    max-active: 20
-    test-on-borrow: true
-    max-wait: 60000
-    time-between-eviction-runs-millis: 60000
-    min-evictable-idle-time-millis: 300000
-    validation-query: SELECT 1 FROM DUAL
-    test-While-Idle: true
-    test-on-return: false
-    pool-prepared-statements: false
-    max-pool-prepared-statement-per-connection-size: 20
-    filters: stat,wall,log4j,config
-    connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;config.decrypt=false
-    monitor:
-          enabled: false
-          druid-stat-view: /druid/*
-          druid-web-stat-filter: /*
-          allow: 219.230.50.107,127.0.0.1
-          deny: 192.168.1.73
-          login-username: admin
-          login-password: 123456
-          exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
-          reset-enable: false
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      # 连接池最大使用连接数
+      max-active: 20
+      # 初始化连接大小
+      initial-size: 1
+      # 获取连接最大等待时间
+      max-wait: 60000
+      # 连接池最小空闲
+      min-idle: 3
+      # 自动清除无用连接
+      remove-abandoned: true
+      # 清除无用连接的等待时间
+      remove-abandoned-timeout: 180
+      # 连接属性
+      connection-properties: clientEncoding=UTF-8
 mybatis:
     type-aliases-package: com.hdsx.car.model
     mapper-locations: classpath*:mapper/*.xml
@@ -40,32 +35,4 @@ pagehelper:
 
 # swagger2
 swagger2.package: com.hdsx.car.company
-
-# Redis
-redisKey:
-  # 缓存时间 默认半小时
-  expire_time: 1800
-  prefix:
-# 购物车
-    cart_info_profix: 'CART_INFO:'
-# 商品
-    item_info_profix: 'ITEM_INFO:'
-    item_info_base_suffix: ':BASE'
-    item_info_desc_suffix: ':DESC'
-    # Redis 缓存时间 默认3天
-    redis_cart_expire_time: 259200
-  
-
-login:
-  # 验证名
-  validation:
-    #登录名
-    ispinengaged: isPinEngaged
-    #邮箱
-    isemailengaged: isEmailEngaged
-    #手机
-    ismobileengaged: isMobileEngaged
-  # 推荐登录名后缀随机数取值范围
-  random_number: 50000
-  # 登录成功页面
-  success_url: http://localhost:8104/success
+ss_url: http://localhost:8104/success

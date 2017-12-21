@@ -44,7 +44,7 @@ public class Swagger2 {
     }
 
     private ApiInfo apiInfo() {
-        Contact contact=new Contact("liusy",
+        Contact contact=new Contact("lcc",
                 "https://github.com/Tlsy/colossus-shop","1326699189@qq.com");
 
         return new ApiInfoBuilder()

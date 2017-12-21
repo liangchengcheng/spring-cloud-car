@@ -22,7 +22,7 @@
 		</if>
 	</select>
 
-	<select id="getTotal" parameterType="com.hdsxtech.entity.QueryBean" resultType="int">
+	<select id="getTotal" parameterType="com.hdsx.car.model.QueryBean" resultType="int">
 		SELECT COUNT(1) FROM CAMPANY_REGIST 
 		<where>
 			<if test="campany.campanyName != null and campany.campanyName != ''">

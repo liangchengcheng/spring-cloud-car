@@ -58,7 +58,7 @@
 		</if>
 	</select>
 
-	<select id="getTotal" parameterType="com.hdsxtech.entity.QueryBean"
+	<select id="getTotal" parameterType="com.hdsx.car.model.QueryBean"
 		resultType="int">
 		SELECT COUNT(1) FROM CAR_INFORMATION
 		<where>

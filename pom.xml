@@ -46,7 +46,6 @@
         <springBootMyBatisVersion>1.3.0</springBootMyBatisVersion>
         <springBootpagehelperVersion>1.1.3</springBootpagehelperVersion>
         <springBootAdminVersion>1.5.3</springBootAdminVersion>
-        <springBootDruidVersion>0.0.1-SNAPSHOT</springBootDruidVersion>
         <springBootRedisVersion>0.0.1-SNAPSHOT</springBootRedisVersion>
         <junitVersion> 4.12</junitVersion>
         <mysqlVersion>5.1.32</mysqlVersion>
@@ -146,6 +145,16 @@
             <artifactId>querydsl-jpa</artifactId>
             <version>4.1.4</version>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.5</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba</groupId>-->
+            <!--<artifactId>druid-spring-boot-starter</artifactId>-->
+            <!--<version>1.0.18</version>-->
+        <!--</dependency>-->
     </dependencies>
     <build>
         <plugins>
