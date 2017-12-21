@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hdsxtech.mapper.PersonMapper">
+	<!-- 分页查询 -->
+	<select id="getList" parameterType="com.hdsxtech.entity.QueryBean" resultType="com.hdsxtech.entity.PersonInformation">
+		SELECT 
+			A.societyId,
+			A.name,
+			A.gender,
+			A.IDCardNumber,
+			A.birthDate,
+			A.phoneNumber,
+			A.updateTime,
+			A.plateNumber,
+			A.serverLevel,
+			A.IDCardType,
+			m1.mvalue certificateStatus,
+			m2.mvalue carDriverType,
+			/*m1.mvalue IDCardType,*/
+			C.campanyName
+			FROM PERSON_INFORMATION A
+		/*left join dict_value m1 on A.IDCardType = m1.mcode and m1.mtype = "idcard"*/
+		LEFT JOIN campany_regist C on A.societyId = C.societyId
+		left join person_qualification d ON  A.IDCardType=d.IDCardType and A.IDCardNumber= d.IDCardNumber
+		left join dict_value m1 on d.certificateStatus = m1.mcode and m1.mtype = "certificateStatus"
+		left join dict_value m2 on d.carDriverType = m2.mcode and m2.mtype = "carDriverType"
+		<where>
+			<if test="person.name != null and person.name != ''">
+				NAME LIKE CONCAT('%', #{person.name},'%')
+			</if>
+			<if test="person.phoneNumber != null and person.phoneNumber != ''">
+				AND PHONENUMBER = #{person.phoneNumber}
+			</if>
+		</where>
+		ORDER BY UPDATETIME 
+		<if test="pagination.startRow != null and pagination.startRow != '' and pagination.pageSize !=null and pagination.pageSize != ''" >
+			LIMIT #{pagination.startRow},#{pagination.pageSize};
+		</if>
+	</select>
+
+	<select id="getTotal" parameterType="com.hdsxtech.entity.QueryBean" resultType="int">
+		SELECT COUNT(1) FROM PERSON_INFORMATION
+		<where>
+			<if test="person.name != null and person.name != ''">
+				NAME LIKE CONCAT('%', #{person.name},'%')
+			</if>
+			<if test="person.phoneNumber != null and person.phoneNumber != ''">
+				AND PHONENUMBER = #{person.phoneNumber}
+			</if>
+		</where>
+	</select>
+	<!-- 新增人员基本信息 -->
+	<insert id="addPersonInformation" parameterType="com.hdsxtech.entity.PersonInformation">
+		INSERT INTO PERSON_INFORMATION VALUES(#{societyId},#{name},#{gender},#{IDCardType},#{IDCardNumber},#{birthDate},#{campanyName},
+		#{phoneNumber},#{updateTime},#{plateNumber},#{serverLevel});
+	</insert>
+	<!-- 新增人员从业资格信息 -->
+	<insert id="addPersonQualification" parameterType="com.hdsxtech.entity.PersonQualification">
+		INSERT INTO PERSON_QUALIFICATION VALUES(#{IDCardType},#{IDCardNumber},#{certificateNumber},#{certificateType},#{certificateExpireDate},
+		#{certificateInstitution},#{certificateStatus},#{carDriverType},#{carCertificateAssessDate},#{carCertificateExpireDate},#{updateTime});
+	</insert>
+	<!-- 新增人员教学信息 -->
+	<insert id="addPersonEducation" parameterType="com.hdsxtech.entity.PersonEducation">
+		INSERT INTO PERSON_EDUCATION VALUES(#{IDCardType},#{IDCardNumber},#{starTime},#{endTime},#{educationContent},
+		#{educationScore},#{certificateStatus},#{educationInstitution},#{updateTime});
+	</insert>
+	<!-- 更新人员基本信息 -->
+	<update id="updatePersonInformation" parameterType="com.hdsxtech.entity.PersonInformation">
+		UPDATE PERSON_INFORMATION SET SOCIETYID = #{societyId} ,NAME = #{name},GENDER = #{gender},BIRTHDATE = #{birthDate},
+		CAMPANYNAME = #{campanyName},PHONENUMBER = #{phoneNumber},UPDATETIME = #{updateTime},PLATENUMBER=#{plateNumber},SERVERLEVEL = #{serverLevel} 
+		WHERE IDCARDNUMBER= #{IDCardNumber} AND IDCARDTYPE= #{IDCardType};
+	</update>
+	<!-- 更新人员从业资格信息 -->
+	<update id="updatePersonQualification" parameterType="com.hdsxtech.entity.PersonQualification">
+		UPDATE PERSON_QUALIFICATION SET CERTIFICATENUMBER=#{certificateNumber},CERTIFICATETYPE=#{certificateType},CERTIFICATEEXPIREDATE=#{certificateExpireDate},
+		CERTIFICATEINSTITUTION=#{certificateInstitution},CERTIFICATESTATUS=#{certificateStatus},CARDRIVERTYPE=#{carDriverType},CARCERTIFICATEASSESSDATE=#{carCertificateAssessDate},CARCERTIFICATEEXPIREDATE=#{carCertificateExpireDate},UPDATETIME=#{updateTime}
+		WHERE IDCARDNUMBER= #{IDCardNumber} AND IDCARDTYPE=#{IDCardType};
+	</update>
+	<!-- 更新人员教学信息 -->
+	<update id="updatePersonEducation" parameterType="com.hdsxtech.entity.PersonEducation">
+		UPDATE PERSON_EDUCATION SET STARTIME=#{starTime},ENDTIME=#{endTime},EDUCATIONCONTENT=#{educationContent},
+		EDUCATIONSCORE=#{educationScore},CERTIFICATESTATUS=#{certificateStatus},EDUCATIONINSTITUTION=#{educationInstitution},UPDATETIME=#{updateTime} 
+		WHERE IDCARDNUMBER= #{IDCardNumber} AND IDCARDTYPE =#{IDCardType};
+	</update>
+	<!-- 删除人员基本信息  -->
+	<delete id="deletePersonInformation" parameterType="String">
+		DELETE FROM PERSON_INFORMATION WHERE IDCARDNUMBER= #{IDCardNumber} AND IDCARDTYPE =#{IDCardType};
+	</delete>
+	<!-- 删除人员从业资格信息 -->
+	<delete id="deletePersonQualification" parameterType="String">
+		DELETE FROM PERSON_QUALIFICATION WHERE IDCARDNUMBER= #{IDCardNumber} AND IDCARDTYPE =#{IDCardType};
+	</delete>
+	<!-- 删除人员教育信息 -->
+	<delete id="deletePersonEducation" parameterType="String">
+		DELETE FROM PERSON_EDUCATION WHERE IDCARDNUMBER= #{IDCardNumber} AND IDCARDTYPE =#{IDCardType};
+	</delete>
+	<!-- 查询人员基本信息 -->
+	<select id="getPersonInformation" parameterType="String" resultType="com.hdsxtech.entity.PersonInformation">
+		<!-- SELECT 
+			A.societyId,
+			A.name,
+			A.gender,
+			A.IDCardNumber,
+			A.birthDate,
+			A.phoneNumber,
+			A.updateTime,
+			A.plateNumber,
+			A.serverLevel,
+			m1.mvalue IDCardType,
+			C.campanyName
+			FROM PERSON_INFORMATION A left join dict_value m1 on A.IDCardType = m1.mcode and m1.mtype = "idcard"
+		LEFT JOIN campany_regist C on A.societyId = C.societyId -->
+		SELECT * FROM PERSON_INFORMATION A WHERE A.IDCARDNUMBER= #{IDCardNumber} AND A.IDCARDTYPE =#{IDCardType};
+	</select>
+	<!-- 查询人员从业资格信息 -->
+	<select id="getPersonQualification" parameterType="String" resultType="com.hdsxtech.entity.PersonQualification">
+		<!-- SELECT  
+			A.IDCardNumber,
+			A.certificateNumber,
+			A.certificateType,
+			A.certificateExpireDate,
+			A.certificateInstitution,
+			A.carCertificateAssessDate,
+			A.carCertificateExpireDate,
+			A.updateTime,
+			m1.mvalue IDCardType,
+			m2.mvalue certificateStatus,
+			m3.mvalue carDriverType
+		FROM PERSON_QUALIFICATION A left join dict_value m1 on A.IDCardType = m1.mcode and m1.mtype = "idcard"
+		left join dict_value m2 on A.IDCardType = m2.mcode and m2.mtype = "certificateStatus"
+		left join dict_value m3 on A.IDCardType = m3.mcode and m3.mtype = "carDriverType" -->
+		SELECT * FROM PERSON_QUALIFICATION WHERE IDCARDNUMBER= #{IDCardNumber} AND IDCARDTYPE =#{IDCardType};
+	</select>
+	<!-- 查询人员教育信息 -->
+	<select id="getPersonEducation" parameterType="String" resultType="com.hdsxtech.entity.PersonEducation">
+		<!-- SELECT
+			A.IDCardNumber,
+			A.starTime,
+			A.endTime,
+			A.educationContent,
+			A.educationScore,
+			A.certificateStatus,
+			A.educationInstitution,
+			A.updateTime,
+			m1.mvalue IDCardType
+		FROM PERSON_EDUCATION A left join dict_value m1 on A.IDCardType = m1.mcode and m1.mtype = "idcard" -->
+		SELECT * FROM PERSON_EDUCATION WHERE IDCARDNUMBER= #{IDCardNumber} AND IDCARDTYPE =#{IDCardType};
+	</select>
+</mapper>

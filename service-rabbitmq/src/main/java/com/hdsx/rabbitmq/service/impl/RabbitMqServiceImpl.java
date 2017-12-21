@@ -11,16 +11,16 @@ public class RabbitMqServiceImpl implements RabbitMqService{
 
     @Override
     public void sendTCPValue(Object msgData) {
-        rabbitSmsTemplate.convertAndSend(EXCHANGE, VALIDATE, data);
+        //rabbitSmsTemplate.convertAndSend(EXCHANGE, VALIDATE, data);
     }
 
     @Override
     public void sendValidate(Object msgData) {
-        rabbitSmsTemplate.convertAndSend(EXCHANGE, VALIDATE, data);
+
     }
 
     @Override
     public void sendCashNotify(Object msgData) {
-        rabbitSmsTemplate.convertAndSend(EXCHANGE, VALIDATE, data);
+
     }
 }

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hdsxtech.mapper.CarMapper">
+	<!-- 分页查询 -->
+	<select id="getList" parameterType="com.hdsxtech.entity.QueryBean"
+		resultType="com.hdsxtech.entity.CarInformation">
+		SELECT
+			A.societyId,
+			A.plateNumber,
+			A.plateColor,
+			A.certificateNumber,
+			A.brandNumber,
+			A.carLimitSeat,
+			A.carTonnage,
+			A.carTractionMass,
+			A.carLength,
+			A.carHigh,
+			A.carWidth,
+			A.starTime,
+			A.endTime,
+			A.certificateInstitution,
+			A.policyNumber,
+			A.policyExpireDate,
+			A.gpsStatus,
+			A.carCheckYear,
+			A.carCheckStatus,
+			A.carCheckDate,
+			A.carNextCheckDate,
+			A.updateTime,
+			m1.mvalue certificateType,
+			m2.mvalue carType,
+			m3.mvalue businessScope,
+			m4.mvalue carLevel,
+			m5.mvalue status,
+			m6.mvalue dangerType,
+			c.campanyName
+		FROM CAR_INFORMATION A left join dict_value m1 on A.certificateType =m1.mcode and m1.mtype = "certificateType"
+		LEFT JOIN dict_value m2 on A.carType = m2.mcode and m2.mtype = "carType"
+		LEFT JOIN dict_value m3 on A.businessScope = m3.mcode and m3.mtype ="businessScope"
+		LEFT JOIN dict_value m4 on A.carLevel = m4.mcode and m4.mtype ="techlevel"
+		LEFT JOIN dict_value m5 on A.status = m5.mcode and m5.mtype = "state"
+		LEFT JOIN dict_value m6 on A.dangerType = m6.mcode and m6.mtype ="transportType"
+		left join campany_regist c on A.societyId = c.societyId
+		<where>
+			<if test="campany.societyId != null and campany.societyId != ''">
+				SOCIETYID = #{campany.societyId}
+			</if>
+			<if test="car.plateNumber != null and car.plateNumber != ''">
+				AND PLATENUMBER LIKE CONCAT('%',#{car.plateNumber},'%')
+			</if>
+			<if test="car.carType != null and car.carType != ''">
+				AND CARTYPE = #{car.carType}
+			</if>
+		</where>
+		ORDER BY UPDATETIME
+		<if test="pagination.startRow != null and pagination.startRow != '' and pagination.pageSize !=null and pagination.pageSize != ''">
+			LIMIT #{pagination.startRow},#{pagination.pageSize};
+		</if>
+	</select>
+
+	<select id="getTotal" parameterType="com.hdsxtech.entity.QueryBean"
+		resultType="int">
+		SELECT COUNT(1) FROM CAR_INFORMATION
+		<where>
+			<if test="campany.societyId != null and campany.societyId != ''">
+				SOCIETYID = #{campany.societyId}
+			</if>
+			<if test="car.plateNumber != null and car.plateNumber != ''">
+				AND PLATENUMBER LIKE CONCAT('%',#{car.plateNumber},'%')
+			</if>
+			<if test="car.carType != null and car.carType != ''">
+				AND CARTYPE = #{car.carType}
+			</if>
+		</where>
+	</select>
+	<!-- 新增车辆信息 -->
+	<insert id="addCar" parameterType="com.hdsxtech.entity.CarInformation">
+		INSERT INTO CAR_INFORMATION
+		(SOCIETYID,PLATENUMBER,PLATECOLOR,CERTIFICATETYPE,CERTIFICATENUMBER,BRANDNUMBER,CARTYPE,
+		CARLIMITSEAT,CARTONNAGE,CARTRACTIONMASS,CARLENGTH,CARHIGH,CARWIDTH,BUSINESSSCOPE,STARTIME,ENDTIME,CERTIFICATEINSTITUTION,
+		CARLEVEL,POLICYNUMBER,POLICYEXPIREDATE,GPSSTATUS,CARCHECKYEAR,CARCHECKSTATUS,CARCHECKDATE,CARNEXTCHECKDATE,STATUS,UPDATETIME,DANGERTYPE)
+		VALUES(#{societyId},#{plateNumber},#{plateColor},#{certificateType},#{certificateNumber},#{brandNumber},
+		#{carType},#{carLimitSeat},#{carTonnage},#{carTractionMass},#{carLength},#{carHigh},#{carWidth},#{businessScope},#{starTime},
+		#{endTime},#{certificateInstitution},#{carLevel},#{policyNumber},#{policyExpireDate},#{gpsStatus},#{carCheckYear},#{carCheckStatus},
+		#{carCheckDate},#{carNextCheckDate},#{status},#{updateTime},#{dangerType});
+	</insert>
+	<!-- 更新车辆信息 -->
+	<update id="updateCar" parameterType="com.hdsxtech.entity.CarInformation">
+		UPDATE CAR_INFORMATION SET
+		SOCIETYID = #{societyId},PLATECOLOR = #{plateColor}, CERTIFICATETYPE =#{certificateType}, 
+		CERTIFICATENUMBER = #{certificateNumber},BRANDNUMBER = #{brandNumber},CARTYPE = #{carType},
+		CARLIMITSEAT = #{carLimitSeat},CARTONNAGE =#{carTonnage},CARTRACTIONMASS = #{carTractionMass},
+		CARLENGTH =#{carLength},CARHIGH = #{carHigh},carWidth = #{carWidth},BUSINESSSCOPE= #{businessScope},
+		STARTIME = #{starTime},ENDTIME = #{endTime},CERTIFICATEINSTITUTION =#{certificateInstitution}, 
+		CARLEVEL = #{carLevel}, POLICYNUMBER =#{policyNumber},POLICYEXPIREDATE = #{policyExpireDate},
+		GPSSTATUS =#{gpsStatus},CARCHECKYEAR = #{carCheckYear},CARCHECKSTATUS = #{carCheckStatus},
+		CARCHECKDATE =#{carCheckDate}, CARNEXTCHECKDATE = #{carNextCheckDate},STATUS =#{status},
+		UPDATETIME = #{updateTime},DANGERTYPE=#{dangerType}
+		WHERE
+		PLATENUMBER = #{plateNumber};
+	</update>
+	<!-- 删除车辆信息 -->
+	<delete id="deleteCar" parameterType="String">
+		DELETE FROM CAR_INFORMATION
+		WHERE PLATENUMBER = #{plateNumber};
+	</delete>
+	<!-- 车辆信息 -->
+	<select id="getCarInformation" parameterType="String" resultType="com.hdsxtech.entity.CarInformation">
+		SELECT * FROM CAR_INFORMATION WHERE PLATENUMBER =#{plateNumber};
+	</select>
+</mapper>
