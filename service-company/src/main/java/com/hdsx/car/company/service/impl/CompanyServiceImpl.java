@@ -107,7 +107,7 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public boolean updateCampany(CompanyVo companyVo) {
+    public boolean updateCompany(CompanyVo companyVo) {
         return false;
     }
 
@@ -126,7 +126,7 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public boolean deleteCampany(String camSocietyId) {
+    public boolean deleteCompany(String camSocietyId) {
         return false;
     }
 
@@ -145,7 +145,7 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public CompanyVo getCampany(String camSocietyId) {
+    public CompanyVo getCompany(String camSocietyId) {
         return null;
     }
 
@@ -164,7 +164,7 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public boolean checkCampany(String camSocietyId) {
+    public boolean checkCompany(String camSocietyId) {
         return false;
     }
 
@@ -179,7 +179,7 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public List<Combotree> getCampanyTree() {
+    public List<Combotree> getCompanyTree() {
         return null;
     }
 }

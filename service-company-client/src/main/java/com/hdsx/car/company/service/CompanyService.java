@@ -37,27 +37,27 @@ public interface CompanyService {
      * 更新企业信息
      */
     @RequestMapping(value = "/updateCampany", method = RequestMethod.PUT)
-    boolean updateCampany(@RequestBody CompanyVo companyVo);
+    boolean updateCompany(@RequestBody CompanyVo companyVo);
 
     /**
      * 删除企业信息
      */
     @RequestMapping(value = "/deleteCampany", method = RequestMethod.DELETE)
-    boolean deleteCampany(@RequestParam("camSocietyId") String camSocietyId);
+    boolean deleteCompany(@RequestParam("camSocietyId") String camSocietyId);
 
     /**
      * 查询企业信息详情
      */
     @RequestMapping(value = "/getCampany", method = RequestMethod.GET)
     @ResponseBody
-    CompanyVo getCampany(@RequestParam("camSocietyId") String camSocietyId);
+    CompanyVo getCompany(@RequestParam("camSocietyId") String camSocietyId);
 
     /**
      * 查询企业是否存在
      */
     @RequestMapping(value = "/checkCampany", method = RequestMethod.GET)
-    boolean checkCampany(@RequestParam("camSocietyId") String camSocietyId);
+    boolean checkCompany(@RequestParam("camSocietyId") String camSocietyId);
 
     @RequestMapping(value = "/getCampanyTree", method = RequestMethod.GET)
-    List<Combotree> getCampanyTree();
+    List<Combotree> getCompanyTree();
 }

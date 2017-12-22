@@ -29,27 +29,27 @@ public class CompanyServiceHystrix implements CompanyService {
     }
 
     @Override
-    public boolean updateCampany(CompanyVo companyVo) {
+    public boolean updateCompany(CompanyVo companyVo) {
         return false;
     }
 
     @Override
-    public boolean deleteCampany(String camSocietyId) {
+    public boolean deleteCompany(String camSocietyId) {
         return false;
     }
 
     @Override
-    public CompanyVo getCampany(String camSocietyId) {
+    public CompanyVo getCompany(String camSocietyId) {
         return null;
     }
 
     @Override
-    public boolean checkCampany(String camSocietyId) {
+    public boolean checkCompany(String camSocietyId) {
         return false;
     }
 
     @Override
-    public List<Combotree> getCampanyTree() {
+    public List<Combotree> getCompanyTree() {
         return null;
     }
 }
