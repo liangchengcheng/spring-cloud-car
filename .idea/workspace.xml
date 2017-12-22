@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/DruidStatFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/DruidStatViewServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/api-common.iml" afterPath="$PROJECT_DIR$/api-common/api-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/target/classes/mapper/CampanyMapper.xml" afterPath="$PROJECT_DIR$/api-common/target/classes/mapper/CampanyMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/target/classes/mapper/CarMapper.xml" afterPath="$PROJECT_DIR$/api-common/target/classes/mapper/CarMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-admin/cloud-admin.iml" afterPath="$PROJECT_DIR$/cloud-admin/cloud-admin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company-client/service-company-client.iml" afterPath="$PROJECT_DIR$/service-company-client/service-company-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/service-company.iml" afterPath="$PROJECT_DIR$/service-company/service-company.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java" afterPath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java" afterPath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/resources/META-INF/app.properties" afterPath="$PROJECT_DIR$/service-company/src/main/resources/META-INF/app.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java" afterPath="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-company/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/target/classes/META-INF/app.properties" afterPath="$PROJECT_DIR$/service-company/target/classes/META-INF/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/target/classes/application.yml" afterPath="$PROJECT_DIR$/service-company/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-rabbitmq-client/service-rabbitmq-client.iml" afterPath="$PROJECT_DIR$/service-rabbitmq-client/service-rabbitmq-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" afterPath="$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-redis-client/service-redis-client.iml" afterPath="$PROJECT_DIR$/service-redis-client/service-redis-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-redis/service-redis.iml" afterPath="$PROJECT_DIR$/service-redis/service-redis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-car.iml" afterPath="$PROJECT_DIR$/spring-cloud-car.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,110 +46,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServiceCompanyApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company-client/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
-              <folding>
-                <marker date="1513864896000" expanded="true" signature="2675:3503" ph="INSERT INTO CAR_INFORMATION... " />
-                <marker date="1513864896000" expanded="true" signature="3610:4494" ph="UPDATE CAR_I... " />
-                <marker date="1513864896000" expanded="true" signature="4574:4638" ph="DELETE FROM " />
-                <marker date="1513864896000" expanded="true" signature="4771:4834" ph="SELECT * FRO... CAR_INFORMATION" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="135">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java">
+      <file leaf-file-name="DruidStatViewServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/DruidStatViewServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml">
+      <file leaf-file-name="DruidStatFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/DruidStatFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/logback.xml">
+      <file leaf-file-name="ServiceCompanyApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banner.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/banner.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -236,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/BaseModel.java" />
-        <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CompanyQualification.java" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CampanyVo.java" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/CompanyVo.java" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/model/Combotree.java" />
@@ -275,18 +193,20 @@
         <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/PersonMapper.xml" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/StringUtil.java" />
         <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/hystrix/CartServiceHystrix.java" />
-        <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java" />
         <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CompanyServceHystrix.java" />
         <option value="$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/CompanyService.java" />
         <option value="$PROJECT_DIR$/service-company/src/main/resources/META-INF/app.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/CampanyMapper.xml" />
         <option value="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" />
-        <option value="$PROJECT_DIR$/service-company/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java" />
         <option value="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/Swagger2.java" />
+        <option value="$PROJECT_DIR$/service-company/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/DruidStatFilter.java" />
+        <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java" />
+        <option value="$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/DruidStatViewServlet.java" />
       </list>
     </option>
   </component>
@@ -323,8 +243,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-65" />
-    <option name="y" value="61" />
+    <option name="x" value="-47" />
+    <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="692" />
   </component>
@@ -513,6 +433,20 @@
               <item name="car" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
@@ -863,12 +797,12 @@
       <workItem from="1513426358619" duration="2761000" />
       <workItem from="1513429136089" duration="16741000" />
       <workItem from="1513588497159" duration="3423000" />
-      <workItem from="1513857794431" duration="7488000" />
+      <workItem from="1513857794431" duration="9494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80362000" />
+    <option name="totallyTimeSpent" value="82368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,7 +814,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-65" y="61" width="1280" height="692" extended-state="0" />
+    <frame x="-47" y="22" width="1280" height="692" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -927,14 +861,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/ConvertUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/HashUtil.java" />
     <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/MybatisGeneratorUtil.java" />
     <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/JdbcUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1216,7 +1142,7 @@
         <state relative-caret-position="285">
           <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1226,7 +1152,7 @@
         <state relative-caret-position="-290">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1335,30 +1261,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java">
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/ServiceCompanyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/DruidStatFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/DruidStatViewServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
