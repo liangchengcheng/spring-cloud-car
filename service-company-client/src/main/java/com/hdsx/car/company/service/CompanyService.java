@@ -10,9 +10,11 @@ import java.util.List;
 
 /**
  * @ResponseBody  应不应该加呢？
+ *
+ * FeignClient(value = "service-company"?
  */
 
-@FeignClient(value = "service-cart",fallback = CompanyServiceHystrix.class)
+@FeignClient(value = "service-company",fallback = CompanyServiceHystrix.class)
 public interface CompanyService {
 
     /**
@@ -30,34 +32,34 @@ public interface CompanyService {
     /**
      * 新增企业信息
      */
-    @RequestMapping(value = "/addCampany",method = RequestMethod.POST)
+    @RequestMapping(value = "/addCompany",method = RequestMethod.POST)
     boolean addCompany(@RequestBody CompanyVo companyVo);
 
     /**
      * 更新企业信息
      */
-    @RequestMapping(value = "/updateCampany", method = RequestMethod.PUT)
+    @RequestMapping(value = "/updateCompany", method = RequestMethod.PUT)
     boolean updateCompany(@RequestBody CompanyVo companyVo);
 
     /**
      * 删除企业信息
      */
-    @RequestMapping(value = "/deleteCampany", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/deleteCompany", method = RequestMethod.DELETE)
     boolean deleteCompany(@RequestParam("camSocietyId") String camSocietyId);
 
     /**
      * 查询企业信息详情
      */
-    @RequestMapping(value = "/getCampany", method = RequestMethod.GET)
+    @RequestMapping(value = "/getCompany", method = RequestMethod.GET)
     @ResponseBody
     CompanyVo getCompany(@RequestParam("camSocietyId") String camSocietyId);
 
     /**
      * 查询企业是否存在
      */
-    @RequestMapping(value = "/checkCampany", method = RequestMethod.GET)
+    @RequestMapping(value = "/checkCompany", method = RequestMethod.GET)
     boolean checkCompany(@RequestParam("camSocietyId") String camSocietyId);
 
-    @RequestMapping(value = "/getCampanyTree", method = RequestMethod.GET)
+    @RequestMapping(value = "/getCompanyTree", method = RequestMethod.GET)
     List<Combotree> getCompanyTree();
 }
