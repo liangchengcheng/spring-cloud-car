@@ -1,6 +1,6 @@
-关闭 ./zkServer.sh stop /usr/local/etc/zookeeper/zoo.cfg
 
-启动 bin/kafka-server-start.sh config/server.properties &
+
+启动 g$ bin/flume-ng agent -n a1 -c conf -f conf/syslog_case7.conf -n a1 -Dflume.root.logger=INFO,console
 
 /**在kafka中创建一个名为 flumetest的topic*/
 
@@ -9,6 +9,21 @@ bin/kafka-console-consumer.sh --zookeeper  mpc5:2181,mpc6:2181,mpc7  --from-begi
 
 /**kafka中在控制台上消费消息队列的启动方式*/
 bin/kafka-console-consumer.sh --zookeeper  mpc5:2181,mpc6:2181,mpc7  --from-beginning --topic flumetest
+
+
+
+#kafka监控 可以用！
+java -cp KafkaOffsetMonitor-assembly-0.2.0.jar \
+ com.quantifind.kafka.offsetapp.OffsetGetterWeb \
+ --zk 127.0.0.1:2181 \
+ --port 8089 \
+ --refresh 10.seconds \
+ --retain 1.days
+
+
+
+
+
 
 
 
@@ -37,13 +52,13 @@ Step 2: 启动服务
 ...
 Step 3: 创建一个主题(topic)
 
-创建一个名为“test”的Topic，只有一个分区和一个备份：
+创建一个名为“mytopic”的Topic，只有一个分区和一个备份：
 
-> bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+> bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic mytopic
 创建好之后，可以通过运行以下命令，查看已创建的topic信息：
 
 > bin/kafka-topics.sh --list --zookeeper localhost:2181
-test
+mytopic
 或者，除了手工创建topic外，你也可以配置你的broker，当发布一个不存在的topic时自动创建topic。
 
 Step 4: 发送消息

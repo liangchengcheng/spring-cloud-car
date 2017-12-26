@@ -7,7 +7,8 @@ bin/flume-ng agent -n a1 -c conf -f conf/flume-conf.properties
 /*启动flume的方法*/
 bin/flume-ng agent -n a1 -c conf -f conf/flume-conf.properties
 
-bin/flume-ng agent -c -conf -f conf/syslog_case5.conf -n a1 -Dflume.root.logger=INFO,console
+ #可用   bin/flume-ng agent -c -conf -f conf/syslog_case5.conf -n a1 -Dflume.root.logger=INFO,console
+ #可用   echo "1撒旦撒旦撒旦所空间看连接的谁来快j111" >> log.log
 
 
 
@@ -40,6 +41,19 @@ bin/kafka-console-consumer.sh --zookeeper  mpc5:2181,mpc6:2181,mpc7  --from-begi
 
 
 
+ #官方提供的kafka sink
+a1.sinks.k1.channel = c1
+a1.sinks.k1.type = org.apache.flume.sink.kafka.KafkaSink
+a1.sinks.k1.kafka.topic = mytopic
+a1.sinks.k1.kafka.bootstrap.servers = 127.0.0.1:9092
+a1.sinks.k1.kafka.flumeBatchSize = 20
+#a1.sinks.k1.kafka.producer.acks = 1
+#a1.sinks.k1.kafka.producer.linger.ms = 1
+#a1.sinks.ki.kafka.producer.compression.type = snappy
+a1.sinks.k1.kafka.producer.acks = 0
+a1.sinks.k1.kafka.producer.compression.type = snappy
+a1.sinks.k1.kafka.producer.zk.connect=127.0.0.1:2181
+a1.sinks.k1.kafka.producer.serializer.class=kafka.serializer.StringEncoder
 
 
 
