@@ -1,0 +1,4 @@
+关闭 ./zkServer.sh stop /usr/local/etc/zookeeper/zoo.cfg
+
+启动 ./zkServer.sh start /usr/local/etc/zookeeper/zoo.cfg
+
