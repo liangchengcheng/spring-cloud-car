@@ -1,4 +1,63 @@
 关闭 ./zkServer.sh stop /usr/local/etc/zookeeper/zoo.cfg
 
-启动 ./zkServer.sh start /usr/local/etc/zookeeper/zoo.cfg
+启动 bin/kafka-server-start.sh config/server.properties &
 
+/**在kafka中创建一个名为 flumetest的topic*/
+
+bin/kafka-console-consumer.sh --zookeeper  mpc5:2181,mpc6:2181,mpc7  --from-beginning --topic flumetest
+
+
+/**kafka中在控制台上消费消息队列的启动方式*/
+bin/kafka-console-consumer.sh --zookeeper  mpc5:2181,mpc6:2181,mpc7  --from-beginning --topic flumetest
+
+
+
+下面的很好使👇http://orchome.com/6  （good）
+
+kafka的背景知识已经讲了很多了，让我们现在开始实践吧，假设你现在没有Kafka和ZooKeeper环境。
+
+Step 1: 下载代码
+
+下载0.10.0.0版本并且解压它。
+
+> tar -xzf kafka_2.11-0.10.0.0.tgz
+> cd kafka_2.11-0.10.0.0
+Step 2: 启动服务
+
+运行kafka需要使用Zookeeper，所以你需要先启动Zookeeper，如果你没有Zookeeper，你可以使用kafka自带打包和配置好的Zookeeper。
+
+> bin/zookeeper-server-start.sh config/zookeeper.properties
+[2013-04-22 15:01:37,495] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+...
+现在启动kafka服务
+
+> bin/kafka-server-start.sh config/server.properties &
+[2013-04-22 15:01:47,028] INFO Verifying properties (kafka.utils.VerifiableProperties)
+[2013-04-22 15:01:47,051] INFO Property socket.send.buffer.bytes is overridden to 1048576 (kafka.utils.VerifiableProperties)
+...
+Step 3: 创建一个主题(topic)
+
+创建一个名为“test”的Topic，只有一个分区和一个备份：
+
+> bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+创建好之后，可以通过运行以下命令，查看已创建的topic信息：
+
+> bin/kafka-topics.sh --list --zookeeper localhost:2181
+test
+或者，除了手工创建topic外，你也可以配置你的broker，当发布一个不存在的topic时自动创建topic。
+
+Step 4: 发送消息
+
+Kafka提供了一个命令行的工具，可以从输入文件或者命令行中读取消息并发送给Kafka集群。每一行是一条消息。
+运行producer（生产者）,然后在控制台输入几条消息到服务器。
+
+> bin/kafka-console-producer.sh --broker-list localhost:9092 --topic mytopic
+This is a message
+This is another message
+Step 5: 消费消息
+
+Kafka也提供了一个消费消息的命令行工具，将存储的信息输出出来。
+
+> bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic mytopic --from-beginning
+This is a message
+This is another message

@@ -1,2 +1,41 @@
 启动方式
 bin/flume-ng agent -n a1 -c conf -f conf/flume-conf.properties
+
+
+
+
+/*启动flume的方法*/
+bin/flume-ng agent -n a1 -c conf -f conf/flume-conf.properties
+bin/flume-ng agent -c -conf -f conf/syslog_case5.conf -n a1 -Dflume.root.logger=INFO,console
+//tcp
+echo "hello idoall.org syslog" | nc 192.168.8.62 5140
+echo "hello looklook5" | nc 192.168.8.62 50000
+
+/*删除一个topic在zookeeper上的元数据*/
+bin/kafka-run-class.sh kafka.admin.DeleteTopicCommand --topic mytri1 --zookeeper mpc5:2181
+
+
+
+/**在kafka中创建一个名为 flumetest的topic*/
+
+bin/kafka-console-consumer.sh --zookeeper  mpc5:2181,mpc6:2181,mpc7  --from-beginning --topic flumetest
+bin/kafka-console-consumer.sh --zookeeper  127.0.0.1:2181  --from-beginning --topic mytopic
+
+
+/**kafka中在控制台上消费消息队列的启动方式*/
+bin/kafka-console-consumer.sh --zookeeper  mpc5:2181,mpc6:2181,mpc7  --from-beginning --topic flumetest
+bin/kafka-console-consumer.sh --zookeeper  mpc5:2181,mpc6:2181,mpc7  --from-beginning --topic flumetest
+
+
+
+
+启动及测试命令：
+（1） start server
+        > bin/zookeeper-server-start.shconfig/zookeeper.properties
+        > bin/kafka-server-start.shconfig/server.properties
+
+
+
+
+
+
