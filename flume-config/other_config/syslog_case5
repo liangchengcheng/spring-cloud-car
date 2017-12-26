@@ -1,0 +1,30 @@
+#配置文件：syslog_case5.conf
+# Name the components on this agent
+a1.sources = r1
+a1.sinks = k1
+a1.channels = c1
+
+# Describe/configure the source
+a1.sources.r1.type =syslogtcp
+a1.sources.r1.port =50000
+a1.sources.r1.host =192.168.233.128
+a1.sources.r1.channels =c1
+
+# Describe the sink
+a1.sinks.k1.type = logger
+ a1.sinks.k1.channel = c1
+
+# Use a channel which buffers events inmemory
+a1.channels.c1.type = memory
+a1.channels.c1.capacity = 1000
+a1.channels.c1.transactionCapacity = 100
+
+
+
+这里我们设置的侦听端口为192.168.233.128 50000
+#敲命令
+flume-ng agent -cconf -f conf/syslog_case5.conf -n a1 -Dflume.root.logger=INFO,console
+启动成功后
+打开另一个终端输入，往侦听端口送数据
+echo "hellolooklook5" | nc 192.168.233.128 50000
+然后看之前的终端，将会有如下显示：

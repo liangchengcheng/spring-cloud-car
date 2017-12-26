@@ -2,11 +2,15 @@
 bin/flume-ng agent -n a1 -c conf -f conf/flume-conf.properties
 
 
-
+*  http://www.jb51.net/article/53542.htm
 
 /*启动flume的方法*/
 bin/flume-ng agent -n a1 -c conf -f conf/flume-conf.properties
+
 bin/flume-ng agent -c -conf -f conf/syslog_case5.conf -n a1 -Dflume.root.logger=INFO,console
+
+
+
 //tcp
 echo "hello idoall.org syslog" | nc 192.168.8.62 5140
 echo "hello looklook5" | nc 192.168.8.62 50000

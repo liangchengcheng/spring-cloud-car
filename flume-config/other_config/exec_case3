@@ -1,0 +1,25 @@
+#配置文件exec_case3.conf
+#Name the components on this agent
+a1.sources= r1
+a1.sinks= k1
+a1.channels= c1
+
+#Describe/configure the source
+a1.sources.r1.type = exec
+a1.sources.r1.command = tail -F /tmp/logs/test.log
+a1.sources.r1.channels = c1
+
+#Describe the sink
+a1.sinks.k1.type= logger
+a1.sinks.k1.channel= c1
+
+#Use a channel which buffers events in memory
+a1.channels.c1.type= memory
+a1.channels.c1.capacity= 1000
+a1.channels.c1.transactionCapacity= 100
+
+flume-ng agent -cconf -f conf/exec_case3.conf -n a1 -Dflume.root.logger=INFO,console
+这边会显示读取日志的所有数据
+
+上图是日志，这边我们继续往日志里添加数据
+echo"looklook5" >>  test.log ，会发现终端也在输出数据。

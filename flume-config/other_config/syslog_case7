@@ -1,0 +1,27 @@
+#配置文件：syslog_case7.conf
+# Name thecomponents on this agent
+a1.sources = r1
+a1.sinks = k1
+a1.channels = c1
+
+#Describe/configure the source
+a1.sources.r1.type = syslogudp
+a1.sources.r1.port = 50000
+a1.sources.r1.host = 192.168.233.128
+a1.sources.r1.channels = c1
+
+# Describe thesink
+a1.sinks.k1.type= logger
+ a1.sinks.k1.channel = c1
+
+# Use a channelwhich buffers events in memory
+a1.channels.c1.type= memory
+a1.channels.c1.capacity= 1000
+a1.channels.c1.transactionCapacity= 100
+
+#敲命令
+flume-ng agent -cconf -f conf/syslog_case7.conf -n a1 -Dflume.root.logger=INFO,console
+启动成功后
+打开另一个终端输入，往侦听端口送数据
+echo "hellolooklook5" | nc –u 192.168.233.128 50000
+#在启动的终端查看console输出

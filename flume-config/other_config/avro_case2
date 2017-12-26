@@ -1,0 +1,29 @@
+#配置文件avro_case2.conf 其实和第二节的pull.conf 一模一样
+#Name the components on this agent
+a1.sources= r1
+a1.sinks= k1
+a1.channels= c1
+
+#Describe/configure the source
+a1.sources.r1.type = avro
+a1.sources.r1.channels = c1
+a1.sources.r1.bind = 192.168.233.128
+a1.sources.r1.port = 55555
+
+#Describe the sink
+a1.sinks.k1.type= logger
+a1.sinks.k1.channel= c1
+
+#Use a channel which buffers events in memory
+a1.channels.c1.type= memory
+a1.channels.c1.capacity= 1000
+a1.channels.c1.transactionCapacity= 100
+
+
+#敲命令
+flume-ng agent -cconf -f conf/avro_case2.conf -n a1 -Dflume.root.logger=INFO,console
+成功与否就不说明，与第二节的pull.conf 同。。。
+
+#然后在另一个终端进行测试
+flume-ng avro-client -cconf -H 192.168.233.128 -p 44444 -F /tmp/logs/test.log
+这个就是模拟第二节push代理费pull代理发数据，这里不写配置直接命令方式测试。

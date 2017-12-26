@@ -1,0 +1,41 @@
+#配置文件：spool_case4.conf
+# Name the components on this agent
+a1.sources = r1
+a1.sinks = k1
+a1.channels = c1
+
+# Describe/configure the source
+a1.sources.r1.type =spooldir
+a1.sources.r1.spoolDir =/tmp/logs
+a1.sources.r1.fileHeader= true
+a1.sources.r1.channels =c1
+
+# Describe the sink
+a1.sinks.k1.type = logger
+ a1.sinks.k1.channel = c1
+
+# Use a channel which buffers events inmemory
+a1.channels.c1.type = memory
+a1.channels.c1.capacity = 1000
+a1.channels.c1.transactionCapacity = 100
+
+Spooling Directory Source在第二节的时候已经讲过，这里复述一下：
+监测配置的目录下新增的文件，并将文件中的数据读取出来。
+其中，Spool Source有2个注意地方，
+第一个是拷贝到spool目录下的文件不可以再打开编辑，
+第二个是spool目录下不可包含相应的子目录。
+这个主要用途作为对日志的准实时监控。
+下面是官网给出的source的配置
+加粗的参数是必选。可选项太多，
+这边就加一个fileSuffix，
+即文件读取后添加的后缀名，这个是可以更改
+
+
+
+这里我们监控日志目录/tmp/logs
+#敲命令
+flume-ng agent -cconf -f conf/spool_case4.conf -n a1 -Dflume.root.logger=INFO,console
+
+终端将数据都显示出来了。我们查看监控日志目录/tmp/logs
+
+被读取的文件已经被加上后缀名，表示已经完成读取。

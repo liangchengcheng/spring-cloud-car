@@ -1,0 +1,31 @@
+HTTP Source是HTTP POST和GET来发送事件数据的，官网说GET应只用于实验。Flume 事件使用一个可插拔的“handler”程序来实现转换，它必须实现的HTTPSourceHandler接口。此处理程序需要一个HttpServletRequest和返回一个flume 事件列表。
+所有在一个POST请求发送的事件被认为是在一个事务里，一个批量插入flume 通道的行为。
+下面是官网给出的source的配置，加粗的参数是必选
+
+#配置文件：http_case8.conf
+#Name the components on this agent
+a1.sources= r1
+a1.sinks= k1
+a1.channels= c1
+
+#Describe/configure the source
+a1.sources.r1.type= http
+a1.sources.r1.port= 50000
+a1.sources.r1.channels= c1
+
+#Describe the sink
+a1.sinks.k1.type= logger
+ a1.sinks.k1.channel = c1
+
+#Use a channel which buffers events in memory
+a1.channels.c1.type= memory
+a1.channels.c1.capacity= 1000
+a1.channels.c1.transactionCapacity= 100
+
+flume-ng agent -cconf -f conf/http_case8.conf -n a1 -Dflume.root.logger=INFO,console
+启动成功后
+#我们用生成JSON 格式的POSTrequest发数据
+curl -X POST -d '[{"headers" :{"looklook1" : "looklook1 isheader","looklook2" : "looklook2 isheader"},"body" : "hello looklook5"}]' http://192.168.233.128:50000
+#在启动的终端查看console输出
+
+这里headers与body都正常输出。
