@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flume-config/常用命令" afterPath="$PROJECT_DIR$/flume-config/常用命令" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flume-config/集群" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="常用命令" pinned="false" current-in-tab="true">
+      <file leaf-file-name="常用命令" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flume-config/常用命令">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -62,11 +63,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="集群" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flume-config/集群">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="常用命令" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-config/常用命令">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="75" column="91" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="91" />
+              <caret line="75" column="91" lean-forward="false" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -76,17 +87,7 @@
         <entry file="file://$PROJECT_DIR$/zookeeper-config/常用命令">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exec_case3" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flume-config/other_config/exec_case3">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+              <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -208,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/CarMapper.java" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/DictMapper.java" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/PersonMapper.java" />
         <option value="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/PropertyLoader.java" />
@@ -259,6 +259,7 @@
         <option value="$PROJECT_DIR$/zookeeper-config/常用命令" />
         <option value="$PROJECT_DIR$/kafka-config/常用命令" />
         <option value="$PROJECT_DIR$/flume-config/常用命令" />
+        <option value="$PROJECT_DIR$/flume-config/集群" />
       </list>
     </option>
   </component>
@@ -295,8 +296,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="22" />
+    <option name="x" value="93" />
+    <option name="y" value="93" />
     <option name="width" value="1548" />
     <option name="height" value="692" />
   </component>
@@ -322,6 +323,11 @@
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="flume-config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
@@ -644,12 +650,12 @@
       <workItem from="1513429136089" duration="16741000" />
       <workItem from="1513588497159" duration="3423000" />
       <workItem from="1513857794431" duration="13810000" />
-      <workItem from="1514246319250" duration="14441000" />
+      <workItem from="1514246319250" duration="15055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101125000" />
+    <option name="totallyTimeSpent" value="101739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,7 +667,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="22" width="1548" height="692" extended-state="0" />
+    <frame x="93" y="93" width="1548" height="692" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -711,13 +717,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/config/RedisClusterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-redis/src/main/java/com/hdsx/car/redis/service/ServiceRedisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1051,7 +1050,7 @@
     <entry file="file://$PROJECT_DIR$/zookeeper-config/常用命令">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="55" />
+          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1059,7 +1058,7 @@
     <entry file="file://$PROJECT_DIR$/kafka-config/常用命令">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="75" column="91" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="91" />
+          <caret line="75" column="91" lean-forward="false" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="91" />
           <folding />
         </state>
       </provider>
@@ -1068,6 +1067,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flume-config/集群">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>
