@@ -2,3 +2,4 @@
 
 启动 ./zkServer.sh start /usr/local/etc/zookeeper/zoo.cfg
 
+监控地址：  http://localhost:9090/home

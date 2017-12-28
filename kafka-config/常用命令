@@ -23,8 +23,8 @@ java -cp KafkaOffsetMonitor-assembly-0.2.0.jar \
 
 
 
-
-
+#分区和分组的概念https://www.cnblogs.com/liuwei6/p/6900686.html
+https://www.cnblogs.com/haoxinyue/p/5723986.html
 
 
 下面的很好使👇http://orchome.com/6  （good）
