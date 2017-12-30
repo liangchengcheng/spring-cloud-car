@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_3_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_6_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_12_0_11_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_11_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_storm_storm_core_1_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_clojure_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_8_47.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-rabbitmq-client/config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-storm/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-storm/service-storm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-data-synchronization/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
@@ -87,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-storm/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-data-synchronization/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-5">
-              <caret line="158" column="25" lean-forward="false" selection-start-line="154" selection-start-column="12" selection-end-line="158" selection-end-column="25" />
+              <caret line="159" column="25" lean-forward="false" selection-start-line="155" selection-start-column="12" selection-end-line="159" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -343,83 +324,20 @@
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
+              <item name="service-data-synchronization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
+              <item name="service-data-synchronization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
+              <item name="service-data-synchronization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-storm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="strom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -737,12 +655,12 @@
       <workItem from="1513429136089" duration="16741000" />
       <workItem from="1513588497159" duration="3423000" />
       <workItem from="1513857794431" duration="13810000" />
-      <workItem from="1514246319250" duration="23643000" />
+      <workItem from="1514246319250" duration="24328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110327000" />
+    <option name="totallyTimeSpent" value="111012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,13 +721,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/dao/CarMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1534">
@@ -1090,7 +1001,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
-          <caret line="158" column="25" lean-forward="false" selection-start-line="154" selection-start-column="12" selection-end-line="158" selection-end-column="25" />
+          <caret line="159" column="25" lean-forward="false" selection-start-line="155" selection-start-column="12" selection-end-line="159" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1178,7 +1089,15 @@
     <entry file="file://$PROJECT_DIR$/service-storm/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-data-synchronization/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
