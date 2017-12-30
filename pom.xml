@@ -39,6 +39,7 @@
         <module>service-hbase</module>
         <module>service-storm</module>
         <module>service-data-synchronization</module>
+        <module>service-bus</module>
     </modules>
 
     <properties>
