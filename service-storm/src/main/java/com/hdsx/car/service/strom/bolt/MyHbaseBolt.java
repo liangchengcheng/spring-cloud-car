@@ -3,7 +3,6 @@ package com.hdsx.car.service.strom.bolt;
 import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;
 import org.apache.storm.topology.BasicOutputCollector;
-import org.apache.storm.topology.IRichBolt;
 import org.apache.storm.topology.OutputFieldsDeclarer;
 import org.apache.storm.topology.base.BaseBasicBolt;
 import org.apache.storm.tuple.Fields;
@@ -14,10 +13,10 @@ import java.util.Map;
 
 /**
  * 将接受的808协议的消息封装一下
- * 1：解析
+ * 2：分发 （轨迹信息存hbase  其他的少的信息进入mysql和redis）
  */
 @SuppressWarnings("serial")
-public class ParseBolt extends BaseBasicBolt {
+public class MyHbaseBolt extends BaseBasicBolt {
 
     private OutputCollector outputCollector;
 

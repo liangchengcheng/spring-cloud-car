@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MyJDBCBolt {
+public class BaseJDBCBolt {
 
     private static Map<String,Object> hikariConfigMap = new HashMap<String, Object>(){{
         put("dataSourceClassName", "com.mysql.jdbc.jdbc2.optional.MysqlDataSource");
