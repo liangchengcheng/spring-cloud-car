@@ -1,0 +1,18 @@
+https://www.jianshu.com/p/5eb62a6d249d
+
+
+3.RabbitMQ 的启动
+进入到 /usr/local/Cellar/rabbitmq/3.6.6，执行
+
+localhost:3.6.6 lidong$ sbin/rabbitmq-server
+1
+4.RabbitMQ 启动插件
+待RabbitMQ 的启动完毕之后，另起终端进入cd /Users/lidong/javaEE/rabbitmq_server-3.6.6/sbin 。启动插件：
+
+ sudo ./rabbitmq-plugins enable rabbitmq_management（执行一次以后不用再次执行）
+1
+5.登陆管理界面
+浏览器输入：http://localhost:15672/
+
+
+http://localhost:15672/#/users

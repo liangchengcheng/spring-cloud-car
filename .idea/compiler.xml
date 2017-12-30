@@ -21,6 +21,7 @@
         <module name="service-rabbitmq-client" />
         <module name="service-redis" />
         <module name="service-redis-client" />
+        <module name="service-storm" />
         <module name="sping-cloud-common" />
         <module name="spring-cloud-config" />
         <module name="spring-cloud-eureka" />
@@ -47,6 +48,7 @@
       <module name="service-rabbitmq-client" target="1.7" />
       <module name="service-redis" target="1.7" />
       <module name="service-redis-client" target="1.7" />
+      <module name="service-storm" target="1.8" />
       <module name="sping-cloud-common" target="1.7" />
       <module name="spring-cloud" target="1.7" />
       <module name="spring-cloud-admin" target="1.7" />

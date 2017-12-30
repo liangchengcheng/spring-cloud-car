@@ -37,6 +37,7 @@
         <module>service-rabbitmq-client</module>
         <module>service-kafka</module>
         <module>service-hbase</module>
+        <module>service-storm</module>
     </modules>
 
     <properties>
