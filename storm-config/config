@@ -1,1 +1,38 @@
 分组的概念https://www.cnblogs.com/xymqx/p/4365190.html
+
+storm.zookeeper.servers:
+    - "h40"
+    - "h41"
+    - "h42"
+storm.zookeeper.port: 2181
+
+nimbus.host: "h40"
+
+supervisor.slots.ports:
+    - 6700
+    - 6701
+    - 6702
+    - 6703
+这个配置非常的膈应人，在某些地方必须加空格，否则启动会报错）
+
+
+启动1：bin/storm nimbus
+启动2：bin/storm supervisor
+启动3：bin/storm ui &
+
+ 启动1：      nohup bin/storm nimbus >> /dev/null &
+[1] 17523
+ 启动2：      nohup bin/storm supervisor >> /dev/null &
+[2] 17537
+ 启动3：      bin/storm ui &
+[3] 17549
+
+
+配置到其他的电脑上 ：[hadoop@h40 ~]$ scp -r apache-storm-0.9.5/ h41:/home/hadoop/
+
+
+
+　　另外注意，上传拓扑时所有的代码都加载到集群了，所以修改代码版本时，
+一定要先在storm目录下执行 bin/storm kill topo_name 结束拓扑，修改代码后重新上传即可再次运行，
+否则可能会出现错误，在集群上的时候kafka配置文件的host.name注释即可，默认为localhost，
+最后代码中用到的参数比较多，很容易出错，所以写代码时还是要仔细点

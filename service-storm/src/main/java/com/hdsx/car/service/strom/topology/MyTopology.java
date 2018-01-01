@@ -30,6 +30,15 @@ public class MyTopology {
         spoutConfig.scheme = new SchemeAsMultiScheme(new StringScheme());
         TopologyBuilder builder = new TopologyBuilder();
 
+        //spoutConfig.forceFromStart = true;
+        //上面Topology实现代码中，有一个很关键的配置对象SpoutConfig，配置属性如下所示：
+        //spoutConf.forceFromStart = false;
+        //该配置是指，如果该Topology因故障停止处理，下次正常运行时是否从Spout对应数据源Kafka中的该订阅Topic的起始位置开始读取，
+        //如果forceFromStart=true，则之前处理过的Tuple还要重新处理一遍，否则会从上次处理的位置继续处理，
+        //保证Kafka中的Topic数据不被重复处理，是在数据源的位置进行状态记录。
+
+
+
         // 设置一个spout用来从kafka消息队列中读取数据并发送给下一级的bolt组件，
         // 此处用的spout组件并非自定义的，而是storm中已经开发好的KafkaSpout
         // 不行的话用fieldsGrouping

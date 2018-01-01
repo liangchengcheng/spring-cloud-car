@@ -45,8 +45,10 @@ public class BaseJDBCBolt {
         return jdbcInsertBolt;
     }
 
+    /**
+     * 查询
+     */
     public static JdbcLookupBolt getJdbcLookupBlot(){
-        //查询
         //指定bolt的输出字段
         Fields outputFields = new Fields("user_id","resource_id","count");
         //指定查询条件字段
