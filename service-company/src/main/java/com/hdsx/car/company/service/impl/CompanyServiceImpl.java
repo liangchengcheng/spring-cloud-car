@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
 
 //@Transactional
@@ -44,7 +45,7 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public Pagination getCompanyList(Integer pageNo, Integer pageSize, String companyName, String registCity) {
+    public BaseResult getCompanyList(Integer pageNo, Integer pageSize, String companyName, String registCity) {
         QueryBean queryBean = new QueryBean();
         queryBean.setPagination(new Pagination(pageNo, pageSize));
 
@@ -59,7 +60,8 @@ public class CompanyServiceImpl implements CompanyService {
         pagination.setTotalCount(total);
         List<CompanyRegist> list = mapper.getList(queryBean);
         pagination.setList(list);
-        return pagination;
+        BaseResult baseResult = new BaseResult(200,"ok",pagination);
+        return baseResult;
     }
 
     @Override
@@ -82,8 +84,8 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public boolean addCompany(@RequestBody CompanyVo companyVo) {
-        return false;
+    public BaseResult addCompany(@RequestBody CompanyVo companyVo) {
+        return null;
     }
 
 
@@ -106,8 +108,8 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public boolean updateCompany(CompanyVo companyVo) {
-        return false;
+    public BaseResult updateCompany(CompanyVo companyVo) {
+        return null;
     }
 
     @ApiOperation("删除企业基本信息")
@@ -125,8 +127,8 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public boolean deleteCompany(String camSocietyId) {
-        return false;
+    public BaseResult deleteCompany(String camSocietyId) {
+        return null;
     }
 
     @ApiOperation("获取企业基本信息详情")
@@ -144,11 +146,9 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public CompanyVo getCompany(String camSocietyId) {
+    public BaseResult getCompany(String camSocietyId) {
         return null;
     }
-
-
 
 
     @ApiOperation("检测企业是否存在")
@@ -166,8 +166,8 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public boolean checkCompany(String camSocietyId) {
-        return false;
+    public BaseResult checkCompany(String camSocietyId) {
+        return null;
     }
 
     @Override
@@ -181,7 +181,8 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public List<Combotree> getCompanyTree() {
+    public BaseResult getCompanyTree() {
+        List<Combotree> combotreeList = new ArrayList<>();
         return null;
     }
 }

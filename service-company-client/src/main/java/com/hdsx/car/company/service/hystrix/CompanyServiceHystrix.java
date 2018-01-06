@@ -1,9 +1,7 @@
 package com.hdsx.car.company.service.hystrix;
 
 import com.hdsx.car.company.service.CompanyService;
-import com.hdsx.car.model.Combotree;
-import com.hdsx.car.model.CompanyVo;
-import com.hdsx.car.model.Pagination;
+import com.hdsx.car.model.*;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -19,37 +17,37 @@ import java.util.List;
 @Component
 public class CompanyServiceHystrix implements CompanyService {
     @Override
-    public Pagination getCompanyList(Integer pageNo, Integer pageSize, String campanyName, String registCity) {
+    public BaseResult getCompanyList(Integer pageNo, Integer pageSize, String campanyName, String registCity) {
         return null;
     }
 
     @Override
-    public boolean addCompany(CompanyVo companyVo) {
-        return false;
-    }
-
-    @Override
-    public boolean updateCompany(CompanyVo companyVo) {
-        return false;
-    }
-
-    @Override
-    public boolean deleteCompany(String camSocietyId) {
-        return false;
-    }
-
-    @Override
-    public CompanyVo getCompany(String camSocietyId) {
+    public BaseResult addCompany(CompanyVo companyVo) {
         return null;
     }
 
     @Override
-    public boolean checkCompany(String camSocietyId) {
-        return false;
+    public BaseResult updateCompany(CompanyVo companyVo) {
+        return null;
     }
 
     @Override
-    public List<Combotree> getCompanyTree() {
+    public BaseResult deleteCompany(String camSocietyId) {
+        return null;
+    }
+
+    @Override
+    public BaseResult getCompany(String camSocietyId) {
+        return null;
+    }
+
+    @Override
+    public BaseResult checkCompany(String camSocietyId) {
+        return null;
+    }
+
+    @Override
+    public BaseResult getCompanyTree() {
         return null;
     }
 }

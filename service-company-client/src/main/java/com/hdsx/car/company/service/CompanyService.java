@@ -1,5 +1,6 @@
 package com.hdsx.car.company.service;
 
+import com.hdsx.car.model.BaseResult;
 import com.hdsx.car.model.Combotree;
 import com.hdsx.car.model.CompanyVo;
 import com.hdsx.car.model.Pagination;
@@ -22,7 +23,7 @@ public interface CompanyService {
      * 新增企业信息
      */
     @RequestMapping(value = "/addCompany",method = RequestMethod.POST)
-    boolean addCompany(CompanyVo companyVo);
+    BaseResult addCompany(CompanyVo companyVo);
 
 
     /**
@@ -30,7 +31,7 @@ public interface CompanyService {
      */
     @RequestMapping(value = "/getCompanyList",method = RequestMethod.GET)
     @ResponseBody
-    Pagination getCompanyList(
+    BaseResult getCompanyList(
             @RequestParam("pageNo")            Integer pageNo,
             @RequestParam("pageSize")          Integer pageSize,
             @RequestParam("companyName")       String campanyName,
@@ -41,27 +42,27 @@ public interface CompanyService {
      * 更新企业信息
      */
     @RequestMapping(value = "/updateCompany", method = RequestMethod.PUT)
-    boolean updateCompany(@RequestBody CompanyVo companyVo);
+    BaseResult updateCompany(CompanyVo companyVo);
 
     /**
      * 删除企业信息
      */
     @RequestMapping(value = "/deleteCompany", method = RequestMethod.DELETE)
-    boolean deleteCompany(@RequestParam("camSocietyId") String camSocietyId);
+    BaseResult deleteCompany(@RequestParam("camSocietyId") String camSocietyId);
 
     /**
      * 查询企业信息详情
      */
     @RequestMapping(value = "/getCompany", method = RequestMethod.GET)
     @ResponseBody
-    CompanyVo getCompany(@RequestParam("camSocietyId") String camSocietyId);
+    BaseResult getCompany(@RequestParam("camSocietyId") String camSocietyId);
 
     /**
      * 查询企业是否存在
      */
     @RequestMapping(value = "/checkCompany", method = RequestMethod.GET)
-    boolean checkCompany(@RequestParam("camSocietyId") String camSocietyId);
+    BaseResult checkCompany(@RequestParam("camSocietyId") String camSocietyId);
 
     @RequestMapping(value = "/getCompanyTree", method = RequestMethod.GET)
-    List<Combotree> getCompanyTree();
+    BaseResult getCompanyTree();
 }
