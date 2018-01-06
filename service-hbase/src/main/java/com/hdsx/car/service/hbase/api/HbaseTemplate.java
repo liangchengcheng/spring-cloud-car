@@ -2,6 +2,9 @@ package com.hdsx.car.service.hbase.api;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.hbase.Cell;
+import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.KeyValue;
 import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.util.Bytes;
@@ -219,4 +222,6 @@ public class HbaseTemplate implements HbaseOperations {
     public void setConfiguration(Configuration configuration) {
         this.configuration = configuration;
     }
+
+
 }
