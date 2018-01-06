@@ -94,7 +94,7 @@ public class CompanyServiceImpl implements CompanyService {
             {
                     @ApiImplicitParam(
                             dataType = "CompanyVo",
-                            name = "CompanyVo",
+                            name = "companyVo",
                             value = "修改信息参数",
                             required = true)
             }
@@ -108,14 +108,14 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public BaseResult updateCompany(CompanyVo companyVo) {
+    public BaseResult updateCompany(@RequestBody CompanyVo companyVo) {
         return null;
     }
 
     @ApiOperation("删除企业基本信息")
     @ApiImplicitParams(
             {
-                    @ApiImplicitParam(name = "camSocietyId", value = "", required = true, dataType = "String")
+                    @ApiImplicitParam(name = "camSocietyId", value = "", required = true, dataType = "String",paramType = "query")
             }
     )
     @ApiResponses(
@@ -134,7 +134,7 @@ public class CompanyServiceImpl implements CompanyService {
     @ApiOperation("获取企业基本信息详情")
     @ApiImplicitParams(
             {
-                    @ApiImplicitParam(name = "camSocietyId", value = "", required = true, dataType = "String")
+                    @ApiImplicitParam(name = "camSocietyId", value = "", required = true, dataType = "String",paramType = "query")
             }
     )
     @ApiResponses(
