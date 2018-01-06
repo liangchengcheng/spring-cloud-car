@@ -2,32 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/flume.conf" afterPath="$PROJECT_DIR$/config/flume-config/flume.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/flume_new_tcp" afterPath="$PROJECT_DIR$/config/flume-config/flume_new_tcp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/flume_tcp.conf" afterPath="$PROJECT_DIR$/config/flume-config/flume_tcp.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/flume_txt_add.conf" afterPath="$PROJECT_DIR$/config/flume-config/flume_txt_add.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/other_config/avro_case2" afterPath="$PROJECT_DIR$/config/flume-config/other_config/avro_case2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/other_config/exec_case3" afterPath="$PROJECT_DIR$/config/flume-config/other_config/exec_case3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/other_config/http_case8" afterPath="$PROJECT_DIR$/config/flume-config/other_config/http_case8" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/other_config/netsource_case5" afterPath="$PROJECT_DIR$/config/flume-config/other_config/netsource_case5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/other_config/spool_case4" afterPath="$PROJECT_DIR$/config/flume-config/other_config/spool_case4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/other_config/syslog_case5" afterPath="$PROJECT_DIR$/config/flume-config/other_config/syslog_case5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/other_config/syslog_case7" afterPath="$PROJECT_DIR$/config/flume-config/other_config/syslog_case7" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/常用命令" afterPath="$PROJECT_DIR$/config/flume-config/常用命令" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flume-config/集群" afterPath="$PROJECT_DIR$/config/flume-config/集群" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kafka-config/常用命令" afterPath="$PROJECT_DIR$/config/kafka-config/常用命令" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nginx-config/config" afterPath="$PROJECT_DIR$/config/nginx-config/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-cloud-zuul/target/classes/application.properties" afterPath="$PROJECT_DIR$/config/spring-cloud-zuul/target/classes/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-cloud-zuul/target/classes/com/hdsx/car/SpringCloudZuulApplication.class" afterPath="$PROJECT_DIR$/config/spring-cloud-zuul/target/classes/com/hdsx/car/SpringCloudZuulApplication.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-cloud-zuul/target/classes/com/hdsx/car/zuul/SpringCloudZuulApplication.class" afterPath="$PROJECT_DIR$/config/spring-cloud-zuul/target/classes/com/hdsx/car/zuul/SpringCloudZuulApplication.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-cloud-zuul/target/classes/jwt.jks" afterPath="$PROJECT_DIR$/config/spring-cloud-zuul/target/classes/jwt.jks" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-cloud-zuul/target/classes/logback.xml" afterPath="$PROJECT_DIR$/config/spring-cloud-zuul/target/classes/logback.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-cloud-zuul/target/classes/user.sql" afterPath="$PROJECT_DIR$/config/spring-cloud-zuul/target/classes/user.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storm-config/config" afterPath="$PROJECT_DIR$/config/storm-config/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zookeeper-config/常用命令" afterPath="$PROJECT_DIR$/config/zookeeper-config/常用命令" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/druid-config/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hadoop-config/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hadoop-config/core-site.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hadoop-config/hdfs-site.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hadoop-config/mapred-site.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hadoop-config/yarn-site.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hbase-config/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hbase-config/hbase-env.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/hbase-config/hbase-site.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-hbase/know-more" afterPath="$PROJECT_DIR$/service-hbase/know-more" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/HbaseTemplate.java" afterPath="$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/HbaseTemplate.java" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,45 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyConnectionProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-storm/src/main/java/com/hdsx/car/service/strom/common/MyConnectionProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HbaseProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/HbaseProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HbaseAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/HbaseAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HbaseTemplate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HbaseTemplate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/HbaseTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="213" column="9" lean-forward="false" selection-start-line="213" selection-start-column="9" selection-end-line="213" selection-end-column="9" />
+            <state relative-caret-position="221">
+              <caret line="208" column="9" lean-forward="false" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
               <folding>
                 <element signature="e#3145#3913#0" expanded="true" />
                 <element signature="e#3912#3913#0" expanded="true" />
@@ -125,72 +75,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HbaseOperations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/HbaseOperations.java">
+      <file leaf-file-name="SpringCloudZuulApplication.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/spring-cloud-zuul/target/classes/com/hdsx/car/zuul/SpringCloudZuulApplication.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringCloudZuulApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/java/com/hdsx/car/SpringCloudZuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1.jar!/org/apache/hadoop/hbase/client/HTable.class">
+      <file leaf-file-name="常用命令" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/zookeeper-config/常用命令">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="72" column="13" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MutatorCallback.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/MutatorCallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-hbase/src/main/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding>
-                  <marker date="1514417515000" expanded="false" signature="733:744" ph=" { " />
-                  <marker date="1514417515000" expanded="false" signature="756:762" ph=" }" />
-                  <marker date="1514417515000" expanded="true" signature="806:860" ph="{...}" />
-                  <marker date="1514417515000" expanded="false" signature="885:896" ph=" { " />
-                  <marker date="1514417515000" expanded="false" signature="907:913" ph=" }" />
-                  <marker date="1514417515000" expanded="true" signature="952:1004" ph="{...}" />
-                  <marker date="1514417515000" expanded="true" signature="1041:1173" ph="..." />
-                  <marker date="1514417515000" expanded="true" signature="1485:1748" ph="{...}" />
-                  <marker date="1514417515000" expanded="true" signature="1781:2049" ph="..." />
-                  <marker date="1514417515000" expanded="true" signature="2203:2442" ph="{...}" />
-                  <marker date="1514417515000" expanded="true" signature="2483:2602" ph="{...}" />
-                  <marker date="1514417515000" expanded="true" signature="2675:3065" ph="..." />
-                  <marker date="1514417515000" expanded="true" signature="3228:3467" ph="{...}" />
-                  <marker date="1514417515000" expanded="true" signature="3508:3627" ph="{...}" />
-                  <marker date="1514417515000" expanded="true" signature="3661:3795" ph="{...}" />
-                  <marker date="1514417515000" expanded="true" signature="3828:3957" ph="{...}" />
-                  <marker date="1514417515000" expanded="true" signature="3994:4434" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="know-more" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-hbase/know-more">
+      <file leaf-file-name="config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/hadoop-config/config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/druid-config/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/hbase-config/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hbase-env.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/hbase-config/hbase-env.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1609">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hbase-site.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/hbase-config/hbase-site.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core-site.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/hadoop-config/core-site.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -264,9 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flume-config/flume_tcp.conf" />
-        <option value="$PROJECT_DIR$/flume-config/flume_txt_add.conf" />
-        <option value="$PROJECT_DIR$/flume-config/other_config/avro_case2" />
         <option value="$PROJECT_DIR$/flume-config/other_config/exec_case3" />
         <option value="$PROJECT_DIR$/flume-config/other_config/spool_case4.conf" />
         <option value="$PROJECT_DIR$/flume-config/other_config/netsource_case5" />
@@ -315,6 +283,9 @@
         <option value="$PROJECT_DIR$/service-hbase/know-more" />
         <option value="$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/HbaseTemplate.java" />
         <option value="$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/HbaseSuperTemplate.java" />
+        <option value="$PROJECT_DIR$/config/hadoop-config/config" />
+        <option value="$PROJECT_DIR$/config/druid-config/config" />
+        <option value="$PROJECT_DIR$/config/hbase-config/config" />
       </list>
     </option>
   </component>
@@ -351,8 +322,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="197" />
-    <option name="y" value="42" />
+    <option name="x" value="221" />
+    <option name="y" value="86" />
     <option name="width" value="1548" />
     <option name="height" value="692" />
   </component>
@@ -385,6 +356,12 @@
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -422,11 +399,11 @@
       <recent name="com.hdsx.car.mq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/hadoop-config" />
+      <recent name="$PROJECT_DIR$/config/hbase-config" />
       <recent name="$PROJECT_DIR$/service-hbase/src/main" />
       <recent name="$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase" />
       <recent name="$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api" />
-      <recent name="$PROJECT_DIR$/service-bus/src/main/resources" />
-      <recent name="$PROJECT_DIR$/flume-config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -704,12 +681,12 @@
       <workItem from="1513588497159" duration="3423000" />
       <workItem from="1513857794431" duration="13810000" />
       <workItem from="1514246319250" duration="49427000" />
-      <workItem from="1515194678848" duration="951000" />
+      <workItem from="1515194678848" duration="3427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137062000" />
+    <option name="totallyTimeSpent" value="139538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -721,7 +698,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="197" y="42" width="1548" height="692" extended-state="0" />
+    <frame x="221" y="86" width="1548" height="692" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -770,79 +747,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/1.0.5/storm-core-1.0.5.jar!/org/apache/storm/topology/base/BaseTickTupleAwareRichBolt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-jdbc/1.0.5/storm-jdbc-1.0.5.jar!/org/apache/storm/jdbc/bolt/AbstractJdbcBolt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-storm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-kafka/1.0.5/storm-kafka-1.0.5.jar!/org/apache/storm/kafka/KafkaSpout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1981">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-kafka/1.0.5/storm-kafka-1.0.5.jar!/org/apache/storm/kafka/StringScheme.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-storm/src/main/java/com/hdsx/car/service/strom/bolt/MyHbaseBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-storm/src/main/java/com/hdsx/car/service/strom/bolt/MySqlBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-kafka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-kafka/src/main/java/com/hdsx/car/service/kafka/producer/MsgProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-kafka/src/main/java/com/hdsx/car/service/kafka/config/KafkaConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-kafka/src/main/java/com/hdsx/car/service/kafka/consumer/MsgConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1083,7 +987,7 @@
         <state relative-caret-position="420">
           <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1130,7 +1034,7 @@
         <state relative-caret-position="495">
           <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1170,8 +1074,8 @@
     <entry file="file://$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/HbaseSuperTemplate.java" />
     <entry file="file://$PROJECT_DIR$/service-hbase/src/main/java/com/hdsx/car/service/hbase/api/HbaseTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="213" column="9" lean-forward="false" selection-start-line="213" selection-start-column="9" selection-end-line="213" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="208" column="9" lean-forward="false" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
           <folding>
             <element signature="e#3145#3913#0" expanded="true" />
             <element signature="e#3912#3913#0" expanded="true" />
@@ -1182,6 +1086,88 @@
             <element signature="e#6648#6840#0" expanded="true" />
             <element signature="e#6839#6840#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/spring-cloud-zuul/target/classes/com/hdsx/car/zuul/SpringCloudZuulApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/java/com/hdsx/car/SpringCloudZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/zookeeper-config/常用命令">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/hadoop-config/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/druid-config/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/hbase-config/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/hbase-config/hbase-env.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/hbase-config/hbase-env.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1609">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/hbase-config/hbase-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/hadoop-config/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

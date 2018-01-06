@@ -1,0 +1,24 @@
+启动HBase
+
+$ ./start-hbase.sh
+$ jps  #验证是否启动成功, 包含HMaster和HRegionServer说明启动成功
+
+6400 DataNode
+7872 Jps
+7702 HMaster
+7624 HQuorumPeer
+6315 NameNode
+6508 SecondaryNameNode
+6716 NodeManager
+7804 HRegionServerHBase
+6623 ResourceManager
+如果在启动HBase后, 提示如下
+
+regionserver running as process 4667. Stop it first.
+#请执行以下操作
+$ kill -9 4667  #这里4667是要杀掉的进程号
+
+作者：Andrew_liu
+链接：https://www.jianshu.com/p/510e1d599123
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

@@ -1,0 +1,7 @@
+到此所有的配置已经完成，接下来执行该命令格式化namenode
+
+hadoop namenode -format
+
+格式化成功之后，即可启动Hadoop，在Hadoop安装目录下有个/sbin目录，目录下有个start-all.sh,执行该文件
+
+./start-all.sh
