@@ -7,6 +7,7 @@ import com.hdsx.car.redis.RedisService;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -30,7 +31,7 @@ public class CompanyServiceImpl implements CompanyService {
             {
                     @ApiImplicitParam(name = "pageNo", value = "", required = true, dataType = "Integer"),
                     @ApiImplicitParam(name = "pageSize", value = "", required = true, dataType = "Integer"),
-                    @ApiImplicitParam(name = "campanyName", value = "", required = true, dataType = "Integer"),
+                    @ApiImplicitParam(name = "companyName", value = "", required = true, dataType = "Integer"),
                     @ApiImplicitParam(name = "registCity", value = "", required = true, dataType = "Integer")
             }
     )
@@ -43,15 +44,15 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public Pagination getCompanys(Integer pageNo, Integer pageSize, String companyName, String registCity) {
+    public Pagination getCompanyList(Integer pageNo, Integer pageSize, String companyName, String registCity) {
         QueryBean queryBean = new QueryBean();
         queryBean.setPagination(new Pagination(pageNo, pageSize));
 
         //封装企业信息
-        CompanyRegist campany = new CompanyRegist();
-        campany.setCampanyName(companyName);
-        campany.setRegistCity(registCity);
-        queryBean.setCampany(campany);
+        CompanyRegist company = new CompanyRegist();
+        company.setCampanyName(companyName);
+        company.setRegistCity(registCity);
+        queryBean.setCampany(company);
 
         Pagination pagination = new Pagination();
         int total = mapper.getTotal(queryBean);
@@ -61,13 +62,13 @@ public class CompanyServiceImpl implements CompanyService {
         return pagination;
     }
 
-    @ApiOperation(value="添加企业信息-传递简单对象", notes="传递简单对象",produces = "application/json")
+    @Override
+    @ApiOperation(value="添加企业信息-传递简单对象")
     @ApiImplicitParams(
             {
                     @ApiImplicitParam(
-                            paramType = "body",
-                            dataType = "com.hdsx.car.model.CompanyVo",
-                            name = "param",
+                            dataType = "CompanyVo",
+                            name = "companyVo",
                             value = "添加信息参数",
                             required = true)
             }
@@ -81,18 +82,17 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public boolean addCompany(CompanyVo companyVo) {
+    public boolean addCompany(@RequestBody CompanyVo companyVo) {
         return false;
     }
 
 
-    @ApiOperation(value="修改企业信息-传递简单对象", notes="传递简单对象",produces = "application/json")
+    @ApiOperation(value="修改企业信息-传递简单对象", notes="传递简单对象")
     @ApiImplicitParams(
             {
                     @ApiImplicitParam(
-                            paramType = "body",
-                            dataType = "com.hdsx.car.model.CompanyVo",
-                            name = "param",
+                            dataType = "CompanyVo",
+                            name = "CompanyVo",
                             value = "修改信息参数",
                             required = true)
             }
@@ -148,22 +148,9 @@ public class CompanyServiceImpl implements CompanyService {
         return null;
     }
 
-    //paramType = "form"
-    //paramType = "path"
-    //path, query, body, header, form
-    //produces = "application/json"
-    //dataType = "int"
-    //@ApiOperation(value="创建用户-传递简单对象", notes="传递简单对象",produces = "application/json")
-    /*
-    @ApiOperation(value="创建用户-传递复杂对象", notes="传递复杂对象DTO，json格式传递数据",produces = "application/json")
-    @RequestMapping(value="/users-3", method= RequestMethod.POST)
-    //json格式传递对象使用RequestBody注解
-    public User postUser3(@RequestBody User user) {
-        users.put(user.getId(),user);
-        return user;
-    }
-     */
-    //http://www.cnblogs.com/softidea/p/6251249.html
+
+
+
     @ApiOperation("检测企业是否存在")
     @ApiImplicitParams(
             {

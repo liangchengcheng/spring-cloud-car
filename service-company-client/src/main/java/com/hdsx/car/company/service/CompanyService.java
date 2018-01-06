@@ -17,23 +17,25 @@ import java.util.List;
 @FeignClient(value = "service-company",fallback = CompanyServiceHystrix.class)
 public interface CompanyService {
 
-    /**
-     * 查询企业集合
-     */
-    @RequestMapping(value = "/getCompanys",method = RequestMethod.GET)
-    @ResponseBody
-    Pagination getCompanys(
-            @RequestParam("pageNo")        Integer pageNo,
-            @RequestParam("pageSize")     Integer pageSize,
-            @RequestParam("campanyName")       String campanyName,
-            @RequestParam("registCity")       String registCity
-    );
 
     /**
      * 新增企业信息
      */
     @RequestMapping(value = "/addCompany",method = RequestMethod.POST)
-    boolean addCompany(@RequestBody CompanyVo companyVo);
+    boolean addCompany(CompanyVo companyVo);
+
+
+    /**
+     * 查询企业集合
+     */
+    @RequestMapping(value = "/getCompanyList",method = RequestMethod.GET)
+    @ResponseBody
+    Pagination getCompanyList(
+            @RequestParam("pageNo")            Integer pageNo,
+            @RequestParam("pageSize")          Integer pageSize,
+            @RequestParam("companyName")       String campanyName,
+            @RequestParam("registCity")        String registCity
+    );
 
     /**
      * 更新企业信息

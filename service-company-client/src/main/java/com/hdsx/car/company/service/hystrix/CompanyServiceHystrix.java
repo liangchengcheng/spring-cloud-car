@@ -19,7 +19,7 @@ import java.util.List;
 @Component
 public class CompanyServiceHystrix implements CompanyService {
     @Override
-    public Pagination getCompanys(Integer pageNo, Integer pageSize, String campanyName, String registCity) {
+    public Pagination getCompanyList(Integer pageNo, Integer pageSize, String campanyName, String registCity) {
         return null;
     }
 

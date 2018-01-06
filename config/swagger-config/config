@@ -1,0 +1,29 @@
+    //paramType = "form"
+    //paramType = "path"
+    //path, query, body, header, form
+
+
+    //produces = "application/json"
+    //dataType = "int"
+
+
+
+
+    
+    //@ApiOperation(value="创建用户-传递简单对象", notes="传递简单对象",produces = "application/json")
+
+    /*
+
+
+    @ApiOperation(value="创建用户-传递复杂对象", notes="传递复杂对象DTO，json格式传递数据",produces = "application/json")
+    @RequestMapping(value="/users-3", method= RequestMethod.POST)
+    //json格式传递对象使用RequestBody注解
+    public User postUser3(@RequestBody User user) {
+        users.put(user.getId(),user);
+        return user;
+    }
+
+
+     */
+
+    //http://www.cnblogs.com/softidea/p/6251249.html
