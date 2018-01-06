@@ -30,11 +30,10 @@ public interface CompanyService {
      * 查询企业集合
      */
     @RequestMapping(value = "/getCompanyList",method = RequestMethod.GET)
-    @ResponseBody
     BaseResult getCompanyList(
-            @RequestParam("pageNo")            Integer pageNo,
-            @RequestParam("pageSize")          Integer pageSize,
-            @RequestParam("companyName")       String campanyName,
+            @RequestParam("pageNo")            int pageNo,
+            @RequestParam("pageSize")          int pageSize,
+            @RequestParam("companyName")       String companyName,
             @RequestParam("registCity")        String registCity
     );
 

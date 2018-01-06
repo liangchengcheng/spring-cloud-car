@@ -16,8 +16,9 @@ import java.util.List;
 
 @Component
 public class CompanyServiceHystrix implements CompanyService {
+    
     @Override
-    public BaseResult getCompanyList(Integer pageNo, Integer pageSize, String campanyName, String registCity) {
+    public BaseResult getCompanyList(int pageNo, int pageSize, String campanyName, String registCity) {
         return null;
     }
 

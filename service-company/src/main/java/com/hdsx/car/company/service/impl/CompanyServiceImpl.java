@@ -30,10 +30,10 @@ public class CompanyServiceImpl implements CompanyService {
     @ApiOperation("获取企业基本信息列表")
     @ApiImplicitParams(
             {
-                    @ApiImplicitParam(name = "pageNo", value = "", required = true, dataType = "Integer"),
-                    @ApiImplicitParam(name = "pageSize", value = "", required = true, dataType = "Integer"),
-                    @ApiImplicitParam(name = "companyName", value = "", required = true, dataType = "Integer"),
-                    @ApiImplicitParam(name = "registCity", value = "", required = true, dataType = "Integer")
+                    @ApiImplicitParam(name = "pageNo", value = "", required = true, dataType = "int",paramType = "query"),
+                    @ApiImplicitParam(name = "pageSize", value = "", required = true, dataType = "int",paramType = "query"),
+                    @ApiImplicitParam(name = "companyName", value = "", required = true, dataType = "String",paramType = "query"),
+                    @ApiImplicitParam(name = "registCity", value = "", required = true, dataType = "String",paramType = "query")
             }
     )
     @ApiResponses(
@@ -45,7 +45,7 @@ public class CompanyServiceImpl implements CompanyService {
                     @ApiResponse(code = 500, message = "服务器不能完成请求")
             }
     )
-    public BaseResult getCompanyList(Integer pageNo, Integer pageSize, String companyName, String registCity) {
+    public BaseResult getCompanyList(int pageNo, int pageSize, String companyName, String registCity) {
         QueryBean queryBean = new QueryBean();
         queryBean.setPagination(new Pagination(pageNo, pageSize));
 

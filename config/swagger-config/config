@@ -1,3 +1,20 @@
+
+   @ApiOperation(value="更新用户名称", notes="更新指定用户的名称")
+   @RequestMapping(value="/users/{id}", method= RequestMethod.POST)
+   @ApiImplicitParams({  （1）
+           @ApiImplicitParam(name = "id",value = "用户ID",paramType = "path",dataType = "int"),  (2)
+           @ApiImplicitParam(name = "userName",value = "用户名称",paramType = "form",dataType = "string")
+   })
+   public void updateUserName(@PathVariable Integer id,@RequestParam String userName){
+       User u = users.get(id);
+       u.setName(userName);
+   }
+   (1) 使用ApiImplicitParams描述多个参数
+   (2) 使用ApiImplicitParam时，需要指定paramType,这样也便于swagger ui 生成参数的输入格式。
+
+   paramType 有五个可选值 ： path, query, body, header, form
+
+
     //paramType = "form"
     //paramType = "path"
     //path, query, body, header, form
@@ -24,4 +41,4 @@
 
      */
 
-    //http://www.cnblogs.com/softidea/p/6251249.html
+    http://www.cnblogs.com/softidea/p/6251249.html
