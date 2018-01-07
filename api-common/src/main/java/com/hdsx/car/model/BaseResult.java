@@ -5,13 +5,19 @@ package com.hdsx.car.model;
  */
 public class BaseResult {
 
-    // 响应业务状态
+    /**
+     * 响应业务状态
+     */
     private Integer status;
 
-    // 响应消息
+    /**
+     * 响应消息
+     */
     private String msg;
 
-    // 响应中的数据
+    /**
+     * 响应中的数据
+     */
     private Object data;
 
     public static BaseResult build(Integer status, String msg, Object data) {
