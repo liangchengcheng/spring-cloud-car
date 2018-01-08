@@ -14,9 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
  * FeignClient(value = "service-company"?
  */
 
-@FeignClient(value = "service-company",fallback = CarServiceHystrix.class)
+@FeignClient(value = "service-car",fallback = CarServiceHystrix.class)
 public interface CarService {
-
 
     /**
      * 获取车辆信息
@@ -39,7 +38,6 @@ public interface CarService {
      */
     @RequestMapping(value = "/updateCar",method = RequestMethod.PUT)
     BaseResult updateCar(CarInformation car);
-
 
     /**
      * 删除车辆信息
