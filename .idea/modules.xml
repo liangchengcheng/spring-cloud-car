@@ -10,11 +10,17 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-turbine/cloud-turbine.iml" filepath="$PROJECT_DIR$/cloud-turbine/cloud-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-bus/service-bus.iml" filepath="$PROJECT_DIR$/service-bus/service-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-car/service-car.iml" filepath="$PROJECT_DIR$/service-car/service-car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-car-client/service-car-client.iml" filepath="$PROJECT_DIR$/service-car-client/service-car-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-company/service-company.iml" filepath="$PROJECT_DIR$/service-company/service-company.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-company-client/service-company-client.iml" filepath="$PROJECT_DIR$/service-company-client/service-company-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-data-synchronization/service-data-synchronization.iml" filepath="$PROJECT_DIR$/service-data-synchronization/service-data-synchronization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-dict/service-dict.iml" filepath="$PROJECT_DIR$/service-dict/service-dict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-dict-client/service-dict-client.iml" filepath="$PROJECT_DIR$/service-dict-client/service-dict-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-hbase/service-hbase.iml" filepath="$PROJECT_DIR$/service-hbase/service-hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-kafka/service-kafka.iml" filepath="$PROJECT_DIR$/service-kafka/service-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-person/service-person.iml" filepath="$PROJECT_DIR$/service-person/service-person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-person-client/service-person-client.iml" filepath="$PROJECT_DIR$/service-person-client/service-person-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" filepath="$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-rabbitmq-client/service-rabbitmq-client.iml" filepath="$PROJECT_DIR$/service-rabbitmq-client/service-rabbitmq-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-redis/service-redis.iml" filepath="$PROJECT_DIR$/service-redis/service-redis.iml" />

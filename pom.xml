@@ -40,6 +40,12 @@
         <module>service-storm</module>
         <module>service-data-synchronization</module>
         <module>service-bus</module>
+        <module>service-car-client</module>
+        <module>service-car</module>
+        <module>service-person-client</module>
+        <module>service-person</module>
+        <module>service-dict-client</module>
+        <module>service-dict</module>
     </modules>
 
     <properties>
