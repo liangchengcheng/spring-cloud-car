@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-car-client/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-car-client/service-car-client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-car/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-car/service-car.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-dict-client/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-dict-client/service-dict-client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-dict/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-dict/service-dict.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-person-client/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-person-client/service-person-client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-person/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-person/service-person.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-car-client/src/main/java/com/hdsx/car/car/service/CarService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-car-client/src/main/java/com/hdsx/car/car/service/hystrix/CarServiceHystrix.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,11 +55,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompanyServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company/src/main/java/com/hdsx/car/company/service/impl/CompanyServiceImpl.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-car/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="140" column="77" lean-forward="false" selection-start-line="140" selection-start-column="77" selection-end-line="140" selection-end-column="77" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DictMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1513858787000" expanded="true" signature="285:353" ph="SELECT SOCIE... CAMPANY_REGIST" />
+                <marker date="1513858787000" expanded="true" signature="501:844" ph="SELECT SOCIE... CAR_INFORMATION" />
+                <marker date="1513858787000" expanded="true" signature="983:1278" ph="select * fro... dict_value" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyServiceHystrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CompanyServiceHystrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="44" />
+              <folding>
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-car-client/src/main/java/com/hdsx/car/car/service/CarService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,32 +104,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-car-client/pom.xml">
+      <file leaf-file-name="CarServiceHystrix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-car-client/src/main/java/com/hdsx/car/car/service/hystrix/CarServiceHystrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-car/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-309">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,16 +169,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="42" column="19" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="42" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-company-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="19" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="26" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -242,8 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kafka-config/常用命令" />
-        <option value="$PROJECT_DIR$/service-rabbitmq-client/config" />
         <option value="$PROJECT_DIR$/service-storm/src/main/java/com/hdsx/car/service/strom/common/ConfKeys.java" />
         <option value="$PROJECT_DIR$/service-storm/src/main/java/com/hdsx/car/service/strom/common/FieldNames.java" />
         <option value="$PROJECT_DIR$/service-storm/src/main/java/com/hdsx/car/service/strom/common/KafkaConfig.java" />
@@ -293,6 +294,8 @@
         <option value="$PROJECT_DIR$/service-person/pom.xml" />
         <option value="$PROJECT_DIR$/service-dict/pom.xml" />
         <option value="$PROJECT_DIR$/service-car/pom.xml" />
+        <option value="$PROJECT_DIR$/service-car-client/src/main/java/com/hdsx/car/car/service/CarService.java" />
+        <option value="$PROJECT_DIR$/service-car-client/src/main/java/com/hdsx/car/car/service/hystrix/CarServiceHystrix.java" />
       </list>
     </option>
   </component>
@@ -362,32 +365,192 @@
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-company" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-dict" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-dict-client" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-person" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-person-client" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-car-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
+              <item name="service-company-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdsx" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,11 +581,11 @@
       <recent name="$PROJECT_DIR$/config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdsx.car.car.service.hystrix" />
+      <recent name="com.hdsx.car.car.service" />
       <recent name="com.hdsx.car.service.hbase.api" />
       <recent name="com.hdsx.car.service.kafka" />
       <recent name="com.hdsx.car.service.strom.bolt" />
-      <recent name="com.hdsx.rabbitmq.service" />
-      <recent name="com.hdsx.car.mq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config/hadoop-config" />
@@ -707,12 +870,12 @@
       <workItem from="1513588497159" duration="3423000" />
       <workItem from="1513857794431" duration="13810000" />
       <workItem from="1514246319250" duration="49427000" />
-      <workItem from="1515194678848" duration="18368000" />
+      <workItem from="1515194678848" duration="19882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154479000" />
+    <option name="totallyTimeSpent" value="155993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -783,27 +946,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-storm/src/main/java/com/hdsx/car/service/strom/topology/MyTopology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/storm-config/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-jdbc/1.0.5/storm-jdbc-1.0.5.jar!/org/apache/storm/jdbc/common/ConnectionProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-storm/src/main/java/com/hdsx/car/service/strom/bolt/BaseHbasebolt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1093,19 +1235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CompanyServiceHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/CompanyService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1214,9 +1343,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-car/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/DictMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513858787000" expanded="true" signature="285:353" ph="SELECT SOCIE... CAMPANY_REGIST" />
+            <marker date="1513858787000" expanded="true" signature="501:844" ph="SELECT SOCIE... CAR_INFORMATION" />
+            <marker date="1513858787000" expanded="true" signature="983:1278" ph="select * fro... dict_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-company-client/src/main/java/com/hdsx/car/company/service/hystrix/CompanyServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="44" />
+          <folding>
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-car-client/src/main/java/com/hdsx/car/car/service/CarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-car-client/src/main/java/com/hdsx/car/car/service/hystrix/CarServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
