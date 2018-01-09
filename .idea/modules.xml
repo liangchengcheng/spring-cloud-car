@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/service-dict-client/service-dict-client.iml" filepath="$PROJECT_DIR$/service-dict-client/service-dict-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-hbase/service-hbase.iml" filepath="$PROJECT_DIR$/service-hbase/service-hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-kafka/service-kafka.iml" filepath="$PROJECT_DIR$/service-kafka/service-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-login/service-login.iml" filepath="$PROJECT_DIR$/service-login/service-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-login-client/service-login-client.iml" filepath="$PROJECT_DIR$/service-login-client/service-login-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-person/service-person.iml" filepath="$PROJECT_DIR$/service-person/service-person.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-person-client/service-person-client.iml" filepath="$PROJECT_DIR$/service-person-client/service-person-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" filepath="$PROJECT_DIR$/service-rabbitmq/service-rabbitmq.iml" />

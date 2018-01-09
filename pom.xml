@@ -46,6 +46,8 @@
         <module>service-person</module>
         <module>service-dict-client</module>
         <module>service-dict</module>
+        <module>service-login-client</module>
+        <module>service-login</module>
     </modules>
 
     <properties>
