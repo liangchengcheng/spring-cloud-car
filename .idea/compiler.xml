@@ -23,6 +23,8 @@
         <module name="service-dict-client" />
         <module name="service-hbase" />
         <module name="service-kafka" />
+        <module name="service-login" />
+        <module name="service-login-client" />
         <module name="service-person" />
         <module name="service-person-client" />
         <module name="service-rabbitmq" />
@@ -58,6 +60,8 @@
       <module name="service-dict-client" target="1.7" />
       <module name="service-hbase" target="1.7" />
       <module name="service-kafka" target="1.7" />
+      <module name="service-login" target="1.7" />
+      <module name="service-login-client" target="1.7" />
       <module name="service-person" target="1.7" />
       <module name="service-person-client" target="1.7" />
       <module name="service-rabbitmq" target="1.7" />
