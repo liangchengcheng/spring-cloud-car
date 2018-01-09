@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * @ResponseBody  应不应该加呢？
  *
- * FeignClient(value = "service-company"?
+ * FeignClient(value = "service-car"?
  */
 
 @FeignClient(value = "service-car",fallback = CarServiceHystrix.class)
@@ -42,13 +42,13 @@ public interface CarService {
     /**
      * 删除车辆信息
      */
-    @RequestMapping(value = "/updateCar",method = RequestMethod.DELETE)
+    @RequestMapping(value = "/deleteCar",method = RequestMethod.DELETE)
     BaseResult deleteCar(@RequestParam("plateNumber") String plateNumber);
 
     /**
      * 查询车辆信息
      */
-    @RequestMapping(value = "/updateCar",method = RequestMethod.GET)
+    @RequestMapping(value = "/getCar",method = RequestMethod.GET)
     BaseResult getCar(@RequestParam("plateNumber") String plateNumber);
 
 }

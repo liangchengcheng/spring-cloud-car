@@ -20,7 +20,7 @@ public class PersonServiceHystrix implements PersonService {
     }
 
     @Override
-    public BaseResult updateCar(PersonVo personVo) {
+    public BaseResult updatePerson(PersonVo personVo) {
         return null;
     }
 

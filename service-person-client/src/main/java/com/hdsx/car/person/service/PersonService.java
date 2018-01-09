@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * @ResponseBody  应不应该加呢？
  *
- * FeignClient(value = "service-company"?
+ * FeignClient(value = "service-person"?
  */
 
 @FeignClient(value = "service-person",fallback = PersonServiceHystrix.class)
@@ -21,7 +21,7 @@ public interface PersonService {
     /**
      * 查询人员集合
      */
-    @RequestMapping(value = "/getCars",method = RequestMethod.GET)
+    @RequestMapping(value = "/getPersons",method = RequestMethod.GET)
     BaseResult getPersons(
             @RequestParam("pageNo") int pageNo,
             @RequestParam("pageSize") int pageSize,
@@ -31,14 +31,14 @@ public interface PersonService {
     /**
      * 新增人员信息
      */
-    @RequestMapping(value = "/addCar",method = RequestMethod.POST)
+    @RequestMapping(value = "/addPerson",method = RequestMethod.POST)
     BaseResult addPerson(PersonVo personVo);
 
     /**
      * 更新人员信息
      */
-    @RequestMapping(value = "/updateCar",method = RequestMethod.PUT)
-    BaseResult updateCar(PersonVo personVo);
+    @RequestMapping(value = "/updatePerson",method = RequestMethod.PUT)
+    BaseResult updatePerson(PersonVo personVo);
 
     /**
      * 删除人员信息
@@ -51,7 +51,7 @@ public interface PersonService {
     /**
      * 查询人员信息
      */
-    @RequestMapping(value = "/updateCar",method = RequestMethod.GET)
+    @RequestMapping(value = "/getPerson",method = RequestMethod.GET)
     BaseResult getPerson(
             @RequestParam("IDCardType") String IDCardType,
             @RequestParam("IDCardType") String IDCardNumber
