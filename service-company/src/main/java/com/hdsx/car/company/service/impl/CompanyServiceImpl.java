@@ -146,7 +146,6 @@ public class CompanyServiceImpl implements CompanyService {
             }
     )
     public BaseResult updateCompany(@RequestBody CompanyVo companyVo) {
-
         int result = 0;
         int result2 = 0;
         try {
