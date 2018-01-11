@@ -19,10 +19,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableEurekaClient
 @MapperScan(basePackages = "com.hdsx.car.dao")
 @ServletComponentScan
-public class ServiceCompanyApplication {
+public class ServicePersonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceCompanyApplication.class, args);
+		SpringApplication.run(ServicePersonApplication.class, args);
 	}
 
 }

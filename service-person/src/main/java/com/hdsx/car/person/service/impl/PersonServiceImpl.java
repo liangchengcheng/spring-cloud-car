@@ -1,6 +1,5 @@
 package com.hdsx.car.person.service.impl;
 
-import com.hdsx.car.dao.LoginMapper;
 import com.hdsx.car.dao.PersonMapper;
 import com.hdsx.car.model.BaseResult;
 import com.hdsx.car.model.PersonVo;
@@ -10,7 +9,6 @@ import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RestController;
-
 
 //@Transactional
 @Api(value = "API - CompanyServiceImpl", description = "公司企业信息基本 服务")
