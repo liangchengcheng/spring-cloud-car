@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: service-person
+
+security.basic.enabled: false
+
+server:
+  port: ${service.server.port:8517}
+
+management:
+  security:
+    enabled: false
+  context-path: /
+
+eureka:
+  instance:
+    status-page-url: http://localhost:${server.port}/swagger-ui.html # ${server.port}为该服务的端口号
+  client:
+    serviceUrl:
+      defaultZone: ${eureka.serviceUrl:http://127.0.0.1:8501/eureka/}
+
+# REDIS (RedisProperties)
+
+
