@@ -10,8 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 
 //@Transactional
 @Api(value = "API - CompanyServiceImpl", description = "公司企业信息基本 服务")
