@@ -180,7 +180,4 @@ public class CarServiceImpl implements CarService {
         BaseResult baseResult = new BaseResult(200, "ok", carInformation);
         return baseResult;
     }
-
-
-
 }
