@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/hdsx/car/utils/DateFormatUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-dict/src/main/java/com/hdsx/car/dict/service/impl/DictServiceImpl.java" afterPath="$PROJECT_DIR$/service-dict/src/main/java/com/hdsx/car/dict/service/impl/DictServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-person/src/main/java/com/hdsx/car/person/service/impl/PersonServiceImpl.java" afterPath="$PROJECT_DIR$/service-person/src/main/java/com/hdsx/car/person/service/impl/PersonServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
@@ -61,8 +58,8 @@
       <file leaf-file-name="PersonServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service-person/src/main/java/com/hdsx/car/person/service/impl/PersonServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="148" column="33" lean-forward="false" selection-start-line="148" selection-start-column="33" selection-end-line="148" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="190" column="13" lean-forward="true" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -847,12 +844,12 @@
       <workItem from="1513588497159" duration="3423000" />
       <workItem from="1513857794431" duration="13810000" />
       <workItem from="1514246319250" duration="49427000" />
-      <workItem from="1515194678848" duration="31932000" />
+      <workItem from="1515194678848" duration="32157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168043000" />
+    <option name="totallyTimeSpent" value="168268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1348,8 +1345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-person/src/main/java/com/hdsx/car/person/service/impl/PersonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="148" column="33" lean-forward="false" selection-start-line="148" selection-start-column="33" selection-end-line="148" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="190" column="13" lean-forward="true" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.Date;
 import java.util.List;
 
@@ -148,10 +147,8 @@ public class PersonServiceImpl implements PersonService {
     @Override
     @ApiOperation(value = "删除人员信息-传递简单对象")
     @ApiImplicitParams({
-            @ApiImplicitParam(paramType = "query", name = "pageNo", dataType = "int", value = "当前页数", defaultValue = "1"),
-            @ApiImplicitParam(paramType = "query", name = "pageSize", dataType = "int", value = "每页显示行数", defaultValue = "10"),
-            @ApiImplicitParam(paramType = "query", name = "name", dataType = "string", value = "驾驶员姓名"),
-            @ApiImplicitParam(paramType = "query", name = "phoneNumber", dataType = "string", value = "驾驶员手机号")
+            @ApiImplicitParam(paramType = "query", name = "IDCardType", dataType = "String", value = "证件类型",required=true),
+            @ApiImplicitParam(paramType = "query", name = "IDCardNumber", dataType = "String", value = "证件号码",required=true)
     })
     @ApiResponses(
             {
@@ -163,16 +160,26 @@ public class PersonServiceImpl implements PersonService {
             }
     )
     public BaseResult deletePerson(String IDCardType, String IDCardNumber) {
-        return null;
+        BaseResult baseResult;
+        PersonInformation personInformation = new PersonInformation();
+        personInformation.setIDCardType(IDCardType);
+        personInformation.setIDCardNumber(IDCardNumber);
+        int result1 = mapper.deletePersonInformation(personInformation);
+        int result2 = mapper.deletePersonQualification(personInformation);
+        int result3 = mapper.deletePersonEducation(personInformation);
+        if (result1 > 0 && result2 > 0 && result3 > 0) {
+            baseResult = new BaseResult(200, "ok", "");
+        } else {
+            baseResult = new BaseResult(500, "no", "");
+        }
+        return baseResult;
     }
 
     @Override
-    @ApiOperation(value = "查询人员集合-传递简单对象")
+    @ApiOperation(value = "查询人员信息-传递简单对象")
     @ApiImplicitParams({
-            @ApiImplicitParam(paramType = "query", name = "pageNo", dataType = "int", value = "当前页数", defaultValue = "1"),
-            @ApiImplicitParam(paramType = "query", name = "pageSize", dataType = "int", value = "每页显示行数", defaultValue = "10"),
-            @ApiImplicitParam(paramType = "query", name = "name", dataType = "string", value = "驾驶员姓名"),
-            @ApiImplicitParam(paramType = "query", name = "phoneNumber", dataType = "string", value = "驾驶员手机号")
+            @ApiImplicitParam(paramType = "query", name = "IDCardType", dataType = "String", value = "证件类型",required=true),
+            @ApiImplicitParam(paramType = "query", name = "IDCardNumber", dataType = "String", value = "证件号码",required=true)
     })
     @ApiResponses(
             {
@@ -184,6 +191,15 @@ public class PersonServiceImpl implements PersonService {
             }
     )
     public BaseResult getPerson(String IDCardType, String IDCardNumber) {
-        return null;
+        PersonInformation personInformation = new PersonInformation();
+        personInformation.setIDCardType(IDCardType);
+        personInformation.setIDCardNumber(IDCardNumber);
+
+        PersonQualification personQualification = mapper.getPersonQualification(personInformation);
+        PersonEducation personEducation = mapper.getPersonEducation(personInformation);
+        PersonVo personVo =  new PersonVo(personInformation, personQualification, personEducation);
+
+        BaseResult baseResult = new BaseResult(500, "no", personVo);
+        return baseResult;
     }
 }
