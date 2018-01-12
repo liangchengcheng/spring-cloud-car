@@ -27,7 +27,6 @@ public class DictServiceImpl implements DictService {
     DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     @ApiOperation("查询公司信息")
-
     @ApiResponses(
             {
                     @ApiResponse(code = 200, message = "Successful — 请求已完成"),
