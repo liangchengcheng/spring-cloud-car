@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hdsx.car.dao.LoginMapper">
+	<!-- 查询公司 -->
+	<select id="login" resultType="com.hdsx.car.model.User" parameterType="com.hdsx.car.model.User">
+		SELECT * FROM user
+		<where>
+			<if test="username != null">
+				username = #{username}
+			</if>
+			<if test="password != null">
+				and password = #{password}
+			</if>
+		</where>
+	</select>
+</mapper>

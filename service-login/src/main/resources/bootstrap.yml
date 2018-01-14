@@ -5,7 +5,7 @@ spring:
 security.basic.enabled: false
 
 server:
-  port: ${service.server.port:8517}
+  port: ${service.server.port:8520}
 
 management:
   security:

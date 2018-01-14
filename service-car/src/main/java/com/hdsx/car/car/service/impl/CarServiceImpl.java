@@ -49,12 +49,12 @@ public class CarServiceImpl implements CarService {
         QueryBean queryBean = new QueryBean();
         queryBean.setPagination(new Pagination(pageNo, pageSize));
 
-        //封装企业信息
+        //1: 封装企业信息
         CompanyRegist campanyRegist = new CompanyRegist();
         campanyRegist.setSocietyId(societyId);
         queryBean.setCampany(campanyRegist);
 
-        //封装车辆信息
+        //2: 封装车辆信息
         CarInformation carInformation = new CarInformation();
         carInformation.setPlateNumber(plateNumber);
         carInformation.setCarType(carType);
@@ -156,7 +156,6 @@ public class CarServiceImpl implements CarService {
         } else {
             baseResult = new BaseResult(500, "no", "");
         }
-
         return baseResult;
     }
 

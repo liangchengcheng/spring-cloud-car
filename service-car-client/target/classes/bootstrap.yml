@@ -1,11 +1,11 @@
 spring:
   application:
-    name: service-login
+    name: service-car
 
 security.basic.enabled: false
 
 server:
-  port: ${service.server.port:8520}
+  port: ${service.server.port:8517}
 
 management:
   security:
@@ -17,7 +17,7 @@ eureka:
     status-page-url: http://localhost:${server.port}/swagger-ui.html # ${server.port}为该服务的端口号
   client:
     serviceUrl:
-      defaultZone: ${eureka.serviceUrl:http://127.0.0.1:8501/eureka/}
+      defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/,http://peer3:1113/eureka/
 
 # REDIS (RedisProperties)
 

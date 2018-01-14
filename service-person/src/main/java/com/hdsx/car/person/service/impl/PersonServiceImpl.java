@@ -199,7 +199,7 @@ public class PersonServiceImpl implements PersonService {
         PersonEducation personEducation = mapper.getPersonEducation(personInformation);
         PersonVo personVo =  new PersonVo(personInformation, personQualification, personEducation);
 
-        BaseResult baseResult = new BaseResult(500, "no", personVo);
+        BaseResult baseResult = new BaseResult(200, "ok", personVo);
         return baseResult;
     }
 }
