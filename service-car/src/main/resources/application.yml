@@ -2,7 +2,7 @@ spring:
   datasource:
     name: service-car
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/whys
+    url: jdbc:mysql://localhost:3306/whys?characterEncoding=UTF-8
     username: root
     password: 123
     # 使用druid数据源
@@ -39,3 +39,7 @@ pagehelper:
 # swagger2
 swagger2.package: com.hdsx.car.car
 ss_url: http://localhost:8104/success
+#logging.level.com.hdsx.car.dao=debug
+#logging.level.org.springframework=WARN
+#logging.level.org.spring.springboot.dao=DEBUG
+#logging.file=logs/spring-boot-logging.log

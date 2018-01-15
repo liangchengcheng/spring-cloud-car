@@ -102,7 +102,7 @@
 	<!-- 删除车辆信息 -->
 	<delete id="deleteCar" parameterType="String">
 		DELETE FROM CAR_INFORMATION
-		WHERE PLATENUMBER = #{plateNumber};
+		WHERE PLATENUMBER = #{plateNumber,jdbcType=VARCHAR};
 	</delete>
 	<!-- 车辆信息 -->
 	<select id="getCarInformation" parameterType="String" resultType="com.hdsx.car.model.CarInformation">

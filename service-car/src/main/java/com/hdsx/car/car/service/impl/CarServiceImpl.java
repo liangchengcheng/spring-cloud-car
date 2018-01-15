@@ -149,6 +149,7 @@ public class CarServiceImpl implements CarService {
             }
     )
     public BaseResult deleteCar(String plateNumber) {
+        String value  = plateNumber;
         int result = mapper.deleteCar(plateNumber);
         BaseResult baseResult;
         if (result > 0) {
