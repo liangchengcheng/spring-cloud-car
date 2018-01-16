@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1d07e3-b614-4c4d-bf05-1211c7b3cf0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-car/target/classes/com/hdsx/car/car/service/impl/CarServiceImpl.class" afterPath="$PROJECT_DIR$/service-car/target/classes/com/hdsx/car/car/service/impl/CarServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/eureka-config/config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" afterPath="$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-car-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-car-client/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-car/src/main/java/com/hdsx/car/car/service/impl/CarServiceImpl.java" afterPath="$PROJECT_DIR$/service-car/src/main/java/com/hdsx/car/car/service/impl/CarServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-car/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-car/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-car/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/service-car/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-company-client/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-company/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-company/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/service-company/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-dict-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-dict-client/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-dict/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-dict/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-dict/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/service-dict/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-login-client/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-login/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/service-login/src/main/resources/logback.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-turbine/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/service-car/src/main/java/com/hdsx/car/car/service/impl/CarServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
-              <caret line="178" column="50" lean-forward="true" selection-start-line="178" selection-start-column="50" selection-end-line="178" selection-end-column="50" />
+              <caret line="178" column="50" lean-forward="false" selection-start-line="178" selection-start-column="50" selection-end-line="178" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -84,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/service-car/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="65" />
+              <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -94,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/service-car-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="65" />
+              <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -150,27 +136,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-login/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+            <state relative-caret-position="241">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml">
+      <file leaf-file-name="config" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/eureka-config/config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
-              <folding>
-                <marker date="1515975430000" expanded="true" signature="2675:3503" ph="INSERT INTO CAR_INFORMATION... " />
-                <marker date="1515975430000" expanded="true" signature="3610:4494" ph="UPDATE CAR_I... " />
-                <marker date="1515975430000" expanded="true" signature="4574:4655" ph="DELETE FROM " />
-                <marker date="1515975430000" expanded="true" signature="4788:4851" ph="SELECT * FRO... CAR_INFORMATION" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -247,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service-login-client/src/main/java/com/hdsx/car/login/service/hystrix/LoginServiceHystrix.java" />
         <option value="$PROJECT_DIR$/service-login-client/src/main/java/com/hdsx/car/login/service/LoginService.java" />
         <option value="$PROJECT_DIR$/service-login/src/main/java/com/hdsx/car/login/service/Swagger2.java" />
         <option value="$PROJECT_DIR$/service-login/src/main/java/com/hdsx/car/login/impl/DruidStatFilter.java" />
@@ -298,6 +278,7 @@
         <option value="$PROJECT_DIR$/service-dict-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-login-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-login/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config/eureka-config/config" />
       </list>
     </option>
   </component>
@@ -334,8 +315,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="62" />
+    <option name="x" value="249" />
+    <option name="y" value="64" />
     <option name="width" value="1176" />
     <option name="height" value="676" />
   </component>
@@ -367,28 +348,13 @@
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-login" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-car" type="462c0819:PsiDirectoryNode" />
-              <item name="service-login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -708,12 +674,12 @@
       <workItem from="1513588497159" duration="3423000" />
       <workItem from="1513857794431" duration="13810000" />
       <workItem from="1514246319250" duration="49427000" />
-      <workItem from="1515194678848" duration="39687000" />
+      <workItem from="1515194678848" duration="41334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175798000" />
+    <option name="totallyTimeSpent" value="177445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -725,7 +691,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="62" width="1176" height="676" extended-state="0" />
+    <frame x="249" y="64" width="1176" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -790,14 +756,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-company/src/main/resources/META-INF/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-dict-client/src/main/resources/META-INF/app.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1131,7 +1089,7 @@
     <entry file="file://$PROJECT_DIR$/api-common/src/main/resources/mapper/CarMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
-          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+          <caret line="97" column="23" lean-forward="false" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
           <folding>
             <marker date="1515975430000" expanded="true" signature="2675:3503" ph="INSERT INTO CAR_INFORMATION... " />
             <marker date="1515975430000" expanded="true" signature="3610:4494" ph="UPDATE CAR_I... " />
@@ -1144,7 +1102,7 @@
     <entry file="file://$PROJECT_DIR$/service-car/src/main/java/com/hdsx/car/car/service/impl/CarServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
-          <caret line="178" column="50" lean-forward="true" selection-start-line="178" selection-start-column="50" selection-end-line="178" selection-end-column="50" />
+          <caret line="178" column="50" lean-forward="false" selection-start-line="178" selection-start-column="50" selection-end-line="178" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1152,7 +1110,7 @@
     <entry file="file://$PROJECT_DIR$/service-car/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="65" />
+          <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1160,7 +1118,7 @@
     <entry file="file://$PROJECT_DIR$/service-car-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="65" />
+          <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1207,8 +1165,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-login/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        <state relative-caret-position="241">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/eureka-config/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
