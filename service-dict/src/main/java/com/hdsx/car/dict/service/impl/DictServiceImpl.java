@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //@Transactional
-@Api(value = "API - DictServiceImpl", description = "车辆信息基本 服务")
+@Api(value = "API - DictServiceImpl", description = "DictService 信息基本 服务")
 @RestController
 @RefreshScope
 public class DictServiceImpl implements DictService {

@@ -15,14 +15,14 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication(exclude = RabbitAutoConfiguration.class,scanBasePackages ={"com.hdsx"})
 @EnableDiscoveryClient
 @EnableTransactionManagement
-@EnableFeignClients(basePackages = {"com.hdsx.car.redis","com.hdsx.car.company"})
+@EnableFeignClients(basePackages = {"com.hdsx.car.redis","com.hdsx.car.login"})
 @EnableEurekaClient
 @MapperScan(basePackages = "com.hdsx.car.dao")
 @ServletComponentScan
-public class ServiceCompanyApplication {
+public class ServiceLoginApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceCompanyApplication.class, args);
+		SpringApplication.run(ServiceLoginApplication.class, args);
 	}
 
 }

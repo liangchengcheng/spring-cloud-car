@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 //@Transactional
-@Api(value = "API - LoginServiceImpl", description = "公司企业信息基本 服务")
+@Api(value = "API - LoginServiceImpl", description = "登录接口信息基本 服务")
 @RestController
 @RefreshScope
 public class LoginServiceImpl implements LoginService {
@@ -23,13 +23,13 @@ public class LoginServiceImpl implements LoginService {
     @Autowired
     private RedisService redisService;
 
-    @ApiOperation("用户web端登录的界面")
+    @ApiOperation("用户web端登录的界面接口")
     @ApiImplicitParams(
             {
                     @ApiImplicitParam(
-                            dataType = "CompanyVo",
-                            name = "companyVo",
-                            value = "修改信息参数",
+                            dataType = "User",
+                            name = "user",
+                            value = "登录信息参数",
                             required = true)
             }
     )

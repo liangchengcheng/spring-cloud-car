@@ -1,4 +1,10 @@
 
+
+   访问地址：
+   http://localhost:8520/swagger-ui.html#!/login-service-impl/loginUsingPOST
+
+   
+
    @ApiOperation(value="更新用户名称", notes="更新指定用户的名称")
    @RequestMapping(value="/users/{id}", method= RequestMethod.POST)
    @ApiImplicitParams({  （1）
