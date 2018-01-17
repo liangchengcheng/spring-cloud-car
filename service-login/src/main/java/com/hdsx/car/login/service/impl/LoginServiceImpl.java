@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 //@Transactional
-@Api(value = "API - CompanyServiceImpl", description = "公司企业信息基本 服务")
+@Api(value = "API - LoginServiceImpl", description = "公司企业信息基本 服务")
 @RestController
 @RefreshScope
 public class LoginServiceImpl implements LoginService {

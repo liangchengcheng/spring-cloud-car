@@ -8,13 +8,11 @@ import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RestController;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
 //@Transactional
-@Api(value = "API - CarServiceImpl", description = "车辆信息基本 服务")
+@Api(value = "API - DictServiceImpl", description = "车辆信息基本 服务")
 @RestController
 @RefreshScope
 public class DictServiceImpl implements DictService {
@@ -23,8 +21,6 @@ public class DictServiceImpl implements DictService {
 
     @Autowired
     private RedisService redisService;
-
-    DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     @ApiOperation("查询公司信息")
     @ApiResponses(

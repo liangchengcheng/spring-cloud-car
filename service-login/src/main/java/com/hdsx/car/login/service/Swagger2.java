@@ -48,8 +48,8 @@ public class Swagger2 {
                 "https://github.com/Tlsy/colossus-shop","1326699189@qq.com");
 
         return new ApiInfoBuilder()
-                .title(title + "  企业信息接口RESTful APIs")
-                .description(title + " 企业信息接口 RESTful API详情!")
+                .title(title + "  登录接口RESTful APIs")
+                .description(title + " 登录接口 RESTful API详情!")
                 .contact(contact)
                 .version("1.0.0")
                 .build();
